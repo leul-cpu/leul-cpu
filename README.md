@@ -65,8 +65,7 @@ const leul = {
 | [**💪 LeulFit**](https://github.com/leul-cpu/leulfit) | Fitness-focused web app | HTML, CSS |
 | [**🏥 MED-CHAIN**](https://github.com/leul-cpu/MED-CHAIN) | Medical chain application | JavaScript |
 | [**🌐 My Portfolio**](https://github.com/leul-cpu/My-Portifolio) | All my works in one place | HTML, CSS |
-| [**💼 Bellanawit**](https://github.com/leul-cpu/Bellanawit) | Client portfolio site | CSS |
-| [**🧑‍💻 Moh**](https://github.com/leul-cpu/Moh) | Personal web project | HTML, CSS |
+| [**💼 Bellanawit**](https://github.com/leul-cpu/Bellanawit), [**Moh**](https://github.com/leul-cpu/Moh) | Client portfolio sites | CSS, HTML |
 | [**📝 Simple Task Manager**](https://github.com/leul-cpu/Simple-Task-Manager) | A clean task management app | HTML, CSS, JavaScript |
 
 </div>
