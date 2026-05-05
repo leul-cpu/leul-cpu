@@ -93,6 +93,7 @@ const leul = {
 
 ---
 
+
 ## 🌐 Connect With Me
 
 <div align="center">
@@ -107,6 +108,7 @@ const leul = {
 </div>
 
 ---
+![Snake](https://raw.githubusercontent.com/leul-cpu/leul-cpu/output/github-contribution-grid-snake-dark.svg)
 
 <div align="center">
 
