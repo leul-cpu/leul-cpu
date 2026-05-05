@@ -92,7 +92,7 @@ const leul = {
 </div>
 
 ---
-
+![Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fleul-cpu&count_bg=%237015B3&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views&edge_flat=false)
 
 ## 🌐 Connect With Me
 
@@ -109,7 +109,7 @@ const leul = {
 
 ---
 ![Snake](https://raw.githubusercontent.com/leul-cpu/leul-cpu/output/github-contribution-grid-snake-dark.svg)
-![Views](https://komarev.com/ghpvc/?user=leul-cpu&color=purple)
+
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=120&section=footer" width="100%"/>
