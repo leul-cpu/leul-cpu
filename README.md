@@ -1,14 +1,14 @@
 <div align="center">
 
-<!-- Animated Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=200&section=header&text=Hey,%20I'm%20Leul%20👋&fontSize=50&fontColor=e94560&animation=fadeIn&fontAlignY=38&desc=Frontend%20Developer%20·%20Ethiopia%20🇪🇹&descAlignY=58&descSize=20&descColor=a8b2d8" width="100%"/>
-
-<!-- Typing Animation -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=E94560&center=true&vCenter=true&width=600&lines=Crafting+beautiful+web+experiences+✨;Turning+ideas+into+clean+code+💻;Always+learning%2C+always+building+🚀;Open+to+collaboration+%26+opportunities+🤝" alt="Typing SVG" />
+<!-- Animated Banner — capsule-render is very reliable -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=220&section=header&text=Hey%2C%20I'm%20Leul%20%F0%9F%91%8B&fontSize=50&fontColor=e94560&animation=fadeIn&fontAlignY=38&desc=Frontend%20Developer%20%C2%B7%20Ethiopia%20%F0%9F%87%AA%F0%9F%87%B9&descAlignY=58&descSize=20&descColor=a8b2d8" width="100%"/>
 
 <br/>
 
-<!-- Profile Views & Followers -->
+### ✨ Crafting beautiful web experiences &nbsp;|&nbsp; 💻 Turning ideas into clean code &nbsp;|&nbsp; 🚀 Always building
+
+<br/>
+
 ![Profile Views](https://komarev.com/ghpvc/?username=leul-cpu&color=e94560&style=flat-square&label=Profile+Views)
 [![GitHub followers](https://img.shields.io/github/followers/leul-cpu?style=flat-square&color=e94560&label=Followers)](https://github.com/leul-cpu)
 
@@ -109,8 +109,8 @@ const leul = {
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=120&section=footer" width="100%"/>
 
-*⭐ Star some repos if you find them interesting — it means a lot!*
+*⭐ If you like what you see, drop a star — it means the world! 🙏*
 
 </div>
