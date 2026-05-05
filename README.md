@@ -107,6 +107,7 @@ const leul = {
 </div>
 
 ---
+![Profile Views](https://komarev.com/ghpvc/?username=leul-cpu&style=for-the-badge)
 ![Snake](https://raw.githubusercontent.com/leul-cpu/leul-cpu/output/github-contribution-grid-snake-dark.svg)
 
 <div align="center">
