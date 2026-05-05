@@ -1,3 +1,6 @@
 - name: Generate View Counter
         run: |
+          # Create the dist directory if it doesn't exist yet
+          mkdir -p dist
+          # Download the badge into the dist folder
           curl "https://komarev.com/ghpvc/?user=leul-cpu&color=purple" -o dist/views.svg
