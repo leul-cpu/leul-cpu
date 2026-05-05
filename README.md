@@ -92,7 +92,7 @@ const leul = {
 </div>
 
 ---
-<img src="https://komarev.com/ghpvc/?user=leul-cpu&color=purple" alt="leul-cpu" />
+![Profile Views](https://raw.githubusercontent.com/leul-cpu/leul-cpu/output/views.svg)
 ## 🌐 Connect With Me
 
 <div align="center">
