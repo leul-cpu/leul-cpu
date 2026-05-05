@@ -1,0 +1,3 @@
+- name: Generate View Counter
+        run: |
+          curl "https://komarev.com/ghpvc/?user=leul-cpu&color=purple" -o dist/views.svg
