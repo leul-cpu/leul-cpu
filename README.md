@@ -51,11 +51,11 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=leul-cpu&show_icons=true&theme=default&hide_border=true" alt="Leul's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=leul-cpu&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Leul's GitHub Stats" />
   <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=leul-cpu&layout=compact&hide_border=true&theme=default" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=leul-cpu&layout=compact&hide_border=true&theme=tokyonight&count_private=true" alt="Top Languages" />
   <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=leul-cpu&hide_border=true&theme=default" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=leul-cpu&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
 ---
