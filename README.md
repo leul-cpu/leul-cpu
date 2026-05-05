@@ -9,7 +9,7 @@
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=leul-cpu&color=e94560&style=flat-square&label=Profile+Views)
+
 [![GitHub followers](https://img.shields.io/github/followers/leul-cpu?style=flat-square&color=e94560&label=Followers)](https://github.com/leul-cpu)
 
 </div>
@@ -92,7 +92,7 @@ const leul = {
 </div>
 
 ---
-![Profile Views](https://raw.githubusercontent.com/leul-cpu/leul-cpu/output/views.svg)
+
 ## 🌐 Connect With Me
 
 <div align="center">
@@ -107,7 +107,9 @@ const leul = {
 </div>
 
 ---
-![Profile Views](https://komarev.com/ghpvc/?username=leul-cpu&style=for-the-badge)
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=leul-cpu&label=Profile+Views&color=blueviolet&style=for-the-badge" />
+</p>
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leul-cpu/leul-cpu/output/github-contribution-grid-snake-dark.svg">
