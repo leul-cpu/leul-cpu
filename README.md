@@ -92,8 +92,7 @@ const leul = {
 </div>
 
 ---
-![Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fleul-cpu&count_bg=%237015B3&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views&edge_flat=false)
-
+<img src="https://komarev.com/ghpvc/?user=leul-cpu&color=purple" alt="leul-cpu" />
 ## 🌐 Connect With Me
 
 <div align="center">
