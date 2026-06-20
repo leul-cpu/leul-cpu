@@ -1,34 +1,58 @@
 <div align="center">
 
-<!-- Animated Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=220&section=header&text=Hey%2C%20I'm%20Leul%20%F0%9F%91%8B&fontSize=50&fontColor=e94560&animation=fadeIn&fontAlignY=38&desc=Frontend%20Developer%20%C2%B7%20Ethiopia%20%F0%9F%87%AA%F0%9F%87%B9&descAlignY=58&descSize=20&descColor=a8b2d8" width="100%"/>
+<!-- Glassmorphism Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=240&section=header&text=Leul%20Abiti&fontSize=70&fontColor=e94560&animation=fadeIn&fontAlignY=35&desc=Frontend%20Developer%20%C2%B7%20UI/UX%20Enthusiast&descAlignY=55&descSize=20&descColor=a8b2d8" width="100%"/>
 
 <br/>
 
-### ✨ Crafting beautiful web experiences &nbsp;|&nbsp; 💻 Turning ideas into clean code &nbsp;|&nbsp; 🚀 Always building
+<!-- Typing Effect Intro -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=E94560&center=true&vCenter=true&width=500&lines=%E2%9C%A8+Crafting+beautiful+web+experiences;%F0%9F%92%BB+Turning+ideas+into+clean+code;%F0%9F%9A%80+Always+building+the+future" alt="Typing SVG" />
+</a>
 
 <br/>
 
-[![GitHub followers](https://img.shields.io/github/followers/leul-cpu?style=flat-square&color=e94560&label=Followers)](https://github.com/leul-cpu)
+<!-- Glassmorphism-style Badges -->
+[![GitHub followers](https://img.shields.io/github/followers/leul-cpu?style=for-the-badge&color=16213e&labelColor=1a1a2e&logo=github&label=Followers)](https://github.com/leul-cpu)
 ![Profile Views](https://raw.githubusercontent.com/leul-cpu/leul-cpu/output/views.svg)
 
 </div>
 
 ---
 
-## 🧑‍💻 About Me
+## 🛠️ Tech Stack Dashboard
+
+<div align="center">
+  <!-- Stylized Cloud of Icons -->
+  <p align="center">
+    <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,nodejs,python,java,mysql,git,github,vscode,figma,canva&perline=8" width="100%" />
+  </p>
+</div>
+
+---
 
 <div align="center">
   <table border="0">
     <tr>
-      <td width="55%" align="left" valign="top">
-        <p>I am <b>Leul Abiti</b>, a passionate <b>Frontend Developer</b> based in Addis Ababa, Ethiopia 🇪🇹. I love building clean, responsive, and user-friendly interfaces that provide exceptional digital experiences.</p>
-        <p>🚀 <b>Current Focus:</b> JavaScript, UI/UX Design, and Open Source contribution.</p>
-        <p>⚡ <b>Fun Fact:</b> I debug with <code>console.log</code> and I'm proud of it! 😄</p>
-        <p>📧 <b>Reach out:</b> <a href="mailto:leulabiti97@gmail.com">leulabiti97@gmail.com</a></p>
+      <!-- Column 1: Profile Info -->
+      <td width="50%" align="left" valign="top">
+        <h3>👤 About Me</h3>
+        <p>
+          <img src="https://img.shields.io/badge/Location-Addis%20Ababa%2C%20Ethiopia-16213e?style=flat-square&logo=googlemaps&logoColor=e94560" /><br/>
+          <img src="https://img.shields.io/badge/Focus-JavaScript%20%26%20UI%2FUX-16213e?style=flat-square&logo=javascript&logoColor=e94560" /><br/>
+          <img src="https://img.shields.io/badge/Hobbies-Open%20Source%20%26%20Design-16213e?style=flat-square&logo=opensourceinitiative&logoColor=e94560" />
+        </p>
+        <p>I build clean, responsive interfaces that bridge the gap between complex logic and elegant design. Currently exploring the intersection of <b>Open Source</b> and <b>Creative Frontend</b>.</p>
+        <p align="center">
+          <a href="https://instagram.com/leul_my2"><img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" height="25"/></a>
+          <a href="https://linkedin.com/in/Leul-Abiti"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="25"/></a>
+          <a href="mailto:leulabiti97@gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="25"/></a>
+        </p>
       </td>
-      <td width="45%" align="center" valign="top">
-        <img src="https://github-readme-stats.vercel.app/api?username=leul-cpu&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="100%"/>
+      <!-- Column 2: Live Stats -->
+      <td width="50%" align="center" valign="top">
+        <h3>📊 Activity Dashboard</h3>
+        <img src="https://github-readme-stats.vercel.app/api?username=leul-cpu&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1a2e&title_color=e94560&text_color=a8b2d8&icon_color=e94560" width="100%"/>
       </td>
     </tr>
   </table>
@@ -36,44 +60,39 @@
 
 ---
 
-## 🛠️ Tech Stack
-
 <div align="center">
-
-| Category | Tools |
-| :--- | :--- |
-| **Languages** | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) |
-| **Database** | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) |
-| **Tools** | ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white) ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white) |
-
+  <table border="0">
+    <tr>
+      <!-- Column 1: Top Languages -->
+      <td width="50%" align="center" valign="top">
+        <h3>🎨 Top Languages</h3>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=leul-cpu&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1a2e&title_color=e94560&text_color=a8b2d8" width="100%"/>
+      </td>
+      <!-- Column 2: Streak -->
+      <td width="50%" align="center" valign="top">
+        <h3>🔥 Contribution Streak</h3>
+        <img src="https://streak-stats.demolab.com?user=leul-cpu&theme=tokyonight&hide_border=true&background=1a1a2e&stroke=e94560&ring=e94560&fire=e94560&currStreakNum=e94560" width="100%"/>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Projects Spotlight
 
 <div align="center">
 
-| 🔥 Project | 📝 Description | 🛠 Stack |
+| 🏷️ Project | 💡 Description | 🛠️ Stack |
 | :--- | :--- | :--- |
-| [**💪 LeulFit**](https://github.com/leul-cpu/leulfit) | Fitness-focused web application | HTML, CSS |
-| [**🏥 MED-CHAIN**](https://github.com/leul-cpu/MED-CHAIN) | Medical chain management application | JavaScript |
-| [**🌐 My Portfolio**](https://github.com/leul-cpu/My-Portifolio) | Showcasing my work and skills | HTML, CSS |
-| [**📝 Task Manager**](https://github.com/leul-cpu/Simple-Task-Manager) | A clean and efficient task management app | JS, HTML, CSS |
+| [**💪 LeulFit**](https://github.com/leul-cpu/leulfit) | Modern Fitness Hub | `HTML` `CSS` `UI/UX` |
+| [**🏥 MED-CHAIN**](https://github.com/leul-cpu/MED-CHAIN) | Secure Medical System | `JavaScript` `Node.js` |
+| [**🌐 Portfolio**](https://github.com/leul-cpu/My-Portifolio) | Personal Showcase | `Creative Frontend` |
+| [**📝 Task Manager**](https://github.com/leul-cpu/Simple-Task-Manager) | Workflow Optimizer | `JS` `Productivity` |
 
 </div>
 
 ---
-
-## 📊 GitHub Insights
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=leul-cpu&theme=onedark&no-frame=true&no-bg=true&margin-w=10&column=4" alt="GitHub Trophies"/><br/>
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leul-cpu&layout=compact&theme=tokyonight&hide_border=true&count_private=true" />
-  <img width="49%" src="https://streak-stats.demolab.com?user=leul-cpu&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak"/>
-</div>
-
-<br/>
 
 <div align="center">
   <h3>🐍 Contribution Snake</h3>
@@ -82,20 +101,6 @@
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/leul-cpu/leul-cpu/output/github-contribution-grid-snake.svg">
     <img alt="snake" src="https://raw.githubusercontent.com/leul-cpu/leul-cpu/output/github-contribution-grid-snake.svg">
   </picture>
-</div>
-
----
-
-## 🌐 Connect With Me
-
-<div align="center">
-
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/leul_my2)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/Leul-Abiti)
-[![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?style=for-the-badge&logo=TikTok&logoColor=white)](https://tiktok.com/@usernah1)
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/@leulleo8)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:leulabiti97@gmail.com)
-
 </div>
 
 <br/>
