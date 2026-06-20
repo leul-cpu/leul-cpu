@@ -17,26 +17,31 @@ jobs:
     timeout-minutes: 5
     
     steps:
-      # 1. Generate the snake animation (This creates the 'dist' folder as root)
+      # 1. Generate the snake animation
       - name: generate-snake-svg
         uses: Platane/snk@v3
         with:
           github_user_name: leul-cpu
           outputs: |
+            dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # 2. FIX PERMISSIONS: Reclaim the dist folder from root
+      # 2. Ensure the dist directory exists (it should be created by the previous step, but just in case)
+      - name: Ensure dist exists
+        run: mkdir -p dist
+
+      # 3. FIX PERMISSIONS: Reclaim the dist folder if it was created by root (common in some Docker-based actions)
       - name: Ensure runner has permissions to dist
         run: sudo chown -R $USER:$USER dist
 
-      # 3. Generate View Counter badge
+      # 4. Generate View Counter badge
       - name: Generate View Counter
         run: |
-          curl "https://komarev.com/ghpvc/?user=leul-cpu&color=purple" -o dist/views.svg
+          curl "https://komarev.com/ghpvc/?username=leul-cpu&color=blueviolet&style=for-the-badge" -o dist/views.svg
 
-      # 4. Push all files to the output branch
+      # 5. Push all files to the output branch
       - name: push files to the output branch
-        uses: crazy-max/ghaction-github-pages@v4
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
           build_dir: dist
