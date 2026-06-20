@@ -28,7 +28,7 @@
         <p>📧 <b>Reach out:</b> <a href="mailto:leulabiti97@gmail.com">leulabiti97@gmail.com</a></p>
       </td>
       <td width="45%" align="center" valign="top">
-        <img src="https://github-readme-stats.vercel.app/api?username=leul-cpu&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" width="100%"/>
+        <img src="https://github-readme-stats.vercel.app/api?username=leul-cpu&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="100%"/>
       </td>
     </tr>
   </table>
