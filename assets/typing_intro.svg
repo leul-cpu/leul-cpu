@@ -1,123 +1,92 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 60" width="100%" height="60">
   <defs>
-    <!-- Clip paths for typing reveal -->
     <clipPath id="clip-p1">
       <rect x="0" y="0" width="0" height="60">
-        <animate attributeName="width" 
-                 values="0; 0; 520; 520; 0; 0; 0" 
-                 keyTimes="0; 0.016; 0.15; 0.28; 0.316; 0.333; 1" 
-                 dur="12s" 
-                 repeatCount="indefinite" />
+        <animate attributeName="width"
+                 values="0;0;560;560;0;0;0"
+                 keyTimes="0;0.016;0.15;0.28;0.316;0.333;1"
+                 dur="12s" repeatCount="indefinite" />
       </rect>
     </clipPath>
-
     <clipPath id="clip-p2">
       <rect x="0" y="0" width="0" height="60">
-        <animate attributeName="width" 
-                 values="0; 0; 0; 450; 450; 0; 0; 0" 
-                 keyTimes="0; 0.333; 0.35; 0.48; 0.61; 0.65; 0.666; 1" 
-                 dur="12s" 
-                 repeatCount="indefinite" />
+        <animate attributeName="width"
+                 values="0;0;0;490;490;0;0;0"
+                 keyTimes="0;0.333;0.35;0.48;0.61;0.65;0.666;1"
+                 dur="12s" repeatCount="indefinite" />
       </rect>
     </clipPath>
-
     <clipPath id="clip-p3">
       <rect x="0" y="0" width="0" height="60">
-        <animate attributeName="width" 
-                 values="0; 0; 0; 410; 410; 0; 0" 
-                 keyTimes="0; 0.666; 0.683; 0.816; 0.94; 0.983; 1" 
-                 dur="12s" 
-                 repeatCount="indefinite" />
+        <animate attributeName="width"
+                 values="0;0;0;440;440;0;0"
+                 keyTimes="0;0.666;0.683;0.816;0.94;0.983;1"
+                 dur="12s" repeatCount="indefinite" />
       </rect>
     </clipPath>
   </defs>
 
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&amp;display=swap');
-
-    .typed-text {
-      font-family: 'Fira Code', 'Courier New', monospace;
-      font-size: 19px;
-      fill: #a8b2d8;
-      font-weight: 500;
-    }
-
-    .accent-word {
-      fill: #e94560;
-      font-weight: 600;
-    }
-
-    .cursor {
-      fill: #e94560;
-    }
-
-    @keyframes blink {
-      0%, 100% { opacity: 0; }
-      50% { opacity: 1; }
-    }
-
-    .blinking {
-      animation: blink 0.8s infinite;
-    }
+    @keyframes blink { 0%,100%{opacity:0} 50%{opacity:1} }
+    .blink { animation: blink 0.8s infinite; }
   </style>
 
-  <!-- Phrase 1: Crafting beautiful web experiences... -->
+  <rect width="100%" height="100%" fill="#0d1117" />
+
+  <!-- Phrase 1 -->
   <g clip-path="url(#clip-p1)">
-    <text x="30" y="35" class="typed-text">
-      ✨ Crafting <tspan class="accent-word">beautiful web experiences</tspan>...
+    <text x="30" y="37"
+          font-family="'Courier New', Courier, monospace"
+          font-size="20" font-weight="500" fill="#a8b2d8">
+      &#x2728; Crafting <tspan fill="#e94560" font-weight="700">beautiful web experiences</tspan>...
     </text>
   </g>
-  <!-- Synced Cursor 1 -->
-  <rect x="30" y="16" width="3" height="22" class="cursor blinking">
-    <animate attributeName="x" 
-             values="30; 30; 540; 540; 30; 30; 30" 
-             keyTimes="0; 0.016; 0.15; 0.28; 0.316; 0.333; 1" 
-             dur="12s" 
-             repeatCount="indefinite" />
-    <animate attributeName="opacity" 
-             values="1; 1; 1; 1; 1; 0; 0" 
-             keyTimes="0; 0.016; 0.15; 0.28; 0.316; 0.333; 1" 
-             dur="12s" 
-             repeatCount="indefinite" />
+  <rect y="15" width="3" height="22" fill="#e94560" class="blink">
+    <animate attributeName="x"
+             values="30;30;560;560;30;30;30"
+             keyTimes="0;0.016;0.15;0.28;0.316;0.333;1"
+             dur="12s" repeatCount="indefinite" />
+    <animate attributeName="opacity"
+             values="1;1;1;1;1;0;0"
+             keyTimes="0;0.016;0.15;0.28;0.316;0.333;1"
+             dur="12s" repeatCount="indefinite" />
   </rect>
 
-  <!-- Phrase 2: Turning ideas into clean code... -->
+  <!-- Phrase 2 -->
   <g clip-path="url(#clip-p2)">
-    <text x="30" y="35" class="typed-text">
-      💻 Turning ideas into <tspan class="accent-word">clean code</tspan>...
+    <text x="30" y="37"
+          font-family="'Courier New', Courier, monospace"
+          font-size="20" font-weight="500" fill="#a8b2d8">
+      &#x1F4BB; Turning ideas into <tspan fill="#e94560" font-weight="700">clean code</tspan>...
     </text>
   </g>
-  <!-- Synced Cursor 2 -->
-  <rect x="30" y="16" width="3" height="22" class="cursor blinking" opacity="0">
-    <animate attributeName="x" 
-             values="30; 30; 30; 470; 470; 30; 30; 30" 
-             keyTimes="0; 0.333; 0.35; 0.48; 0.61; 0.65; 0.666; 1" 
-             dur="12s" 
-             repeatCount="indefinite" />
-    <animate attributeName="opacity" 
-             values="0; 0; 1; 1; 1; 1; 0; 0" 
-             keyTimes="0; 0.333; 0.35; 0.48; 0.61; 0.65; 0.666; 1" 
-             dur="12s" 
-             repeatCount="indefinite" />
+  <rect y="15" width="3" height="22" fill="#e94560" class="blink" opacity="0">
+    <animate attributeName="x"
+             values="30;30;30;490;490;30;30;30"
+             keyTimes="0;0.333;0.35;0.48;0.61;0.65;0.666;1"
+             dur="12s" repeatCount="indefinite" />
+    <animate attributeName="opacity"
+             values="0;0;1;1;1;1;0;0"
+             keyTimes="0;0.333;0.35;0.48;0.61;0.65;0.666;1"
+             dur="12s" repeatCount="indefinite" />
   </rect>
 
-  <!-- Phrase 3: Always building & learning... -->
+  <!-- Phrase 3 -->
   <g clip-path="url(#clip-p3)">
-    <text x="30" y="35" class="typed-text">
-      🚀 Always <tspan class="accent-word">building &amp; learning</tspan>...
+    <text x="30" y="37"
+          font-family="'Courier New', Courier, monospace"
+          font-size="20" font-weight="500" fill="#a8b2d8">
+      &#x1F680; Always <tspan fill="#e94560" font-weight="700">building &amp; learning</tspan>...
     </text>
   </g>
-  <!-- Synced Cursor 3 -->
-  <rect x="30" y="16" width="3" height="22" class="cursor blinking" opacity="0">
-    <animate attributeName="x" 
-             values="30; 30; 30; 430; 430; 30; 30" 
-             keyTimes="0; 0.666; 0.683; 0.816; 0.94; 0.983; 1" 
-             dur="12s" 
-             repeatCount="indefinite" />
-    <animate attributeName="opacity" 
-             values="0; 0; 0; 1; 1; 1; 0" 
-             keyTimes="0; 0.666; 0.683; 0.816; 0.94; 0.983; 1" 
-             dur="12s" 
-             repeatCount="indefinite" />
+  <rect y="15" width="3" height="22" fill="#e94560" class="blink" opacity="0">
+    <animate attributeName="x"
+             values="30;30;30;440;440;30;30"
+             keyTimes="0;0.666;0.683;0.816;0.94;0.983;1"
+             dur="12s" repeatCount="indefinite" />
+    <animate attributeName="opacity"
+             values="0;0;0;1;1;1;0"
+             keyTimes="0;0.666;0.683;0.816;0.94;0.983;1"
+             dur="12s" repeatCount="indefinite" />
   </rect>
 </svg>

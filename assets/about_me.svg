@@ -1,145 +1,125 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 340" width="100%" height="340">
   <defs>
-    <!-- Glass Background Gradient -->
     <linearGradient id="glassBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#16213e" stop-opacity="0.6" />
-      <stop offset="100%" stop-color="#0f3460" stop-opacity="0.3" />
+      <stop offset="0%" stop-color="#16213e" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#0f3460" stop-opacity="0.8" />
     </linearGradient>
-
-    <!-- Glass Border Gradient -->
     <linearGradient id="cardBorder" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#ffffff" stop-opacity="0.2" />
       <stop offset="35%" stop-color="#ffffff" stop-opacity="0.05" />
       <stop offset="70%" stop-color="#e94560" stop-opacity="0.1" />
       <stop offset="100%" stop-color="#e94560" stop-opacity="0.3" />
     </linearGradient>
-
-    <!-- Drop Shadow -->
     <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
       <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5" />
     </filter>
   </defs>
 
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&amp;display=swap');
-
-    .code-term {
-      font-family: 'Fira Code', 'Courier New', monospace;
-      font-size: 13px;
-      font-weight: 400;
-      fill: #a9b1d6;
-    }
-
-    .line-no {
-      font-family: 'Fira Code', monospace;
-      font-size: 12px;
-      fill: #444b6a;
-      text-anchor: end;
-      user-select: none;
-    }
-
-    .keyword { fill: #bb9af7; font-weight: 500; }
-    .def { fill: #7aa2f7; }
-    .op { fill: #89ddff; }
-    .prop { fill: #2ac3de; }
-    .str { fill: #9ece6a; }
-    .bracket { fill: #f7768e; }
-    .accent { fill: #e94560; }
-    .comment { fill: #565f89; font-style: italic; }
-
-    .window-title {
-      font-family: 'Fira Code', monospace;
-      font-size: 11px;
-      fill: #565f89;
-      letter-spacing: 1px;
-    }
-  </style>
-
-  <!-- Main Card with glass reflection and shadow -->
+  <!-- Card -->
   <rect x="10" y="10" width="440" height="320" rx="12" ry="12"
-        fill="url(#glassBg)"
-        stroke="url(#cardBorder)"
-        stroke-width="1.5"
-        filter="url(#shadow)" />
+        fill="url(#glassBg)" stroke="url(#cardBorder)" stroke-width="1.5" filter="url(#shadow)" />
 
-  <!-- Terminal Header / Window Controls -->
-  <!-- Red close button -->
-  <circle cx="30" cy="26" r="6" fill="#f7768e" opacity="0.8" />
-  <!-- Yellow minimize button -->
-  <circle cx="48" cy="26" r="6" fill="#ff9e64" opacity="0.8" />
-  <!-- Green expand button -->
-  <circle cx="66" cy="26" r="6" fill="#9ece6a" opacity="0.8" />
+  <!-- Window Controls -->
+  <circle cx="30" cy="26" r="6" fill="#f7768e" opacity="0.85" />
+  <circle cx="48" cy="26" r="6" fill="#ff9e64" opacity="0.85" />
+  <circle cx="66" cy="26" r="6" fill="#9ece6a" opacity="0.85" />
 
-  <!-- Tab / Filename -->
-  <text x="230" y="30" text-anchor="middle" class="window-title">👤 leul-cpu ~ about_me.js</text>
+  <!-- Title bar -->
+  <text x="230" y="30" text-anchor="middle"
+        font-family="'Courier New', Courier, monospace"
+        font-size="11" fill="#565f89" letter-spacing="1">about_me.js — leul-cpu</text>
 
-  <!-- Divider Line -->
-  <line x1="10" y1="42" x2="450" y2="42" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+  <!-- Divider -->
+  <line x1="10" y1="42" x2="450" y2="42" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
 
-  <!-- Line Numbers Group -->
-  <g transform="translate(35, 75)">
-    <text x="0" y="0" class="line-no">1</text>
-    <text x="0" y="24" class="line-no">2</text>
-    <text x="0" y="48" class="line-no">3</text>
-    <text x="0" y="72" class="line-no">4</text>
-    <text x="0" y="96" class="line-no">5</text>
-    <text x="0" y="120" class="line-no">6</text>
-    <text x="0" y="144" class="line-no">7</text>
-    <text x="0" y="168" class="line-no">8</text>
-    <text x="0" y="192" class="line-no">9</text>
-    <text x="0" y="216" class="line-no">10</text>
+  <!-- Line Numbers -->
+  <g font-family="'Courier New', Courier, monospace" font-size="12" fill="#444b6a" text-anchor="end">
+    <text x="38" y="75">1</text>
+    <text x="38" y="99">2</text>
+    <text x="38" y="123">3</text>
+    <text x="38" y="147">4</text>
+    <text x="38" y="171">5</text>
+    <text x="38" y="195">6</text>
+    <text x="38" y="219">7</text>
+    <text x="38" y="243">8</text>
+    <text x="38" y="267">9</text>
+    <text x="38" y="291">10</text>
   </g>
 
-  <!-- Code Content Group -->
-  <g transform="translate(50, 75)" class="code-term">
-    <!-- Line 1 -->
-    <text x="0" y="0">
-      <tspan class="keyword">const</tspan> <tspan class="def">leul</tspan> <tspan class="op">=</tspan> <tspan class="bracket">{</tspan>
+  <!-- Code Lines -->
+  <g font-family="'Courier New', Courier, monospace" font-size="13">
+    <!-- Line 1: const leul = { -->
+    <text x="52" y="75">
+      <tspan fill="#bb9af7" font-weight="600">const</tspan>
+      <tspan fill="#7aa2f7"> leul </tspan>
+      <tspan fill="#89ddff">=</tspan>
+      <tspan fill="#f7768e"> {</tspan>
     </text>
-
     <!-- Line 2 -->
-    <text x="0" y="24">
-      &nbsp;&nbsp;<tspan class="prop">name</tspan><tspan class="op">:</tspan>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<tspan class="str">"Leul Abiti"</tspan><tspan class="op">,</tspan>
+    <text x="52" y="99">
+      <tspan fill="#a9b1d6">  </tspan>
+      <tspan fill="#2ac3de">name</tspan>
+      <tspan fill="#89ddff">:         </tspan>
+      <tspan fill="#9ece6a">"Leul Abiti"</tspan>
+      <tspan fill="#89ddff">,</tspan>
     </text>
-
     <!-- Line 3 -->
-    <text x="0" y="48">
-      &nbsp;&nbsp;<tspan class="prop">location</tspan><tspan class="op">:</tspan>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<tspan class="str">"Addis Ababa, Ethiopia 🇪🇹"</tspan><tspan class="op">,</tspan>
+    <text x="52" y="123">
+      <tspan fill="#a9b1d6">  </tspan>
+      <tspan fill="#2ac3de">location</tspan>
+      <tspan fill="#89ddff">:     </tspan>
+      <tspan fill="#9ece6a">"Addis Ababa, ET "</tspan>
+      <tspan fill="#89ddff">,</tspan>
     </text>
-
     <!-- Line 4 -->
-    <text x="0" y="72">
-      &nbsp;&nbsp;<tspan class="prop">role</tspan><tspan class="op">:</tspan>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<tspan class="str">"Frontend Developer"</tspan><tspan class="op">,</tspan>
+    <text x="52" y="147">
+      <tspan fill="#a9b1d6">  </tspan>
+      <tspan fill="#2ac3de">role</tspan>
+      <tspan fill="#89ddff">:         </tspan>
+      <tspan fill="#9ece6a">"Frontend Developer"</tspan>
+      <tspan fill="#89ddff">,</tspan>
     </text>
-
     <!-- Line 5 -->
-    <text x="0" y="96">
-      &nbsp;&nbsp;<tspan class="prop">passion</tspan><tspan class="op">:</tspan>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<tspan class="str">"Building gorgeous, interactive UIs"</tspan><tspan class="op">,</tspan>
+    <text x="52" y="171">
+      <tspan fill="#a9b1d6">  </tspan>
+      <tspan fill="#2ac3de">passion</tspan>
+      <tspan fill="#89ddff">:      </tspan>
+      <tspan fill="#9ece6a">"Building gorgeous UIs"</tspan>
+      <tspan fill="#89ddff">,</tspan>
     </text>
-
     <!-- Line 6 -->
-    <text x="0" y="120">
-      &nbsp;&nbsp;<tspan class="prop">currentFocus</tspan><tspan class="op">:</tspan>&nbsp;<tspan class="bracket">[</tspan><tspan class="str">"React"</tspan><tspan class="op">,</tspan>&nbsp;<tspan class="str">"UI/UX Design"</tspan><tspan class="bracket">]</tspan><tspan class="op">,</tspan>
+    <text x="52" y="195">
+      <tspan fill="#a9b1d6">  </tspan>
+      <tspan fill="#2ac3de">currentFocus</tspan>
+      <tspan fill="#89ddff">: </tspan>
+      <tspan fill="#f7768e">[</tspan>
+      <tspan fill="#9ece6a">"JS"</tspan>
+      <tspan fill="#89ddff">, </tspan>
+      <tspan fill="#9ece6a">"UI/UX"</tspan>
+      <tspan fill="#f7768e">]</tspan>
+      <tspan fill="#89ddff">,</tspan>
     </text>
-
     <!-- Line 7 -->
-    <text x="0" y="144">
-      &nbsp;&nbsp;<tspan class="prop">funFact</tspan><tspan class="op">:</tspan>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<tspan class="str">"I debug with console.log &amp; proud! 🚀"</tspan><tspan class="op">,</tspan>
+    <text x="52" y="219">
+      <tspan fill="#a9b1d6">  </tspan>
+      <tspan fill="#2ac3de">funFact</tspan>
+      <tspan fill="#89ddff">:       </tspan>
+      <tspan fill="#9ece6a">"console.log debugger "</tspan>
+      <tspan fill="#89ddff">,</tspan>
     </text>
-
     <!-- Line 8 -->
-    <text x="0" y="168">
-      &nbsp;&nbsp;<tspan class="prop">contact</tspan><tspan class="op">:</tspan>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<tspan class="str">"leulabiti97@gmail.com"</tspan>
+    <text x="52" y="243">
+      <tspan fill="#a9b1d6">  </tspan>
+      <tspan fill="#2ac3de">contact</tspan>
+      <tspan fill="#89ddff">:       </tspan>
+      <tspan fill="#9ece6a">"leulabiti97@gmail.com"</tspan>
     </text>
-
     <!-- Line 9 -->
-    <text x="0" y="192">
-      <tspan class="bracket">}</tspan><tspan class="op">;</tspan>
+    <text x="52" y="267">
+      <tspan fill="#f7768e">}</tspan>
+      <tspan fill="#89ddff">;</tspan>
     </text>
-
-    <!-- Line 10 (Interactive Blinking Input Prompt cursor in terminal) -->
-    <text x="0" y="216">
-      <tspan class="comment">// Always open to collaborate!</tspan>
-    </text>
+    <!-- Line 10: comment -->
+    <text x="52" y="291" fill="#565f89" font-style="italic">// Always open to collaborate!</text>
   </g>
 </svg>
