@@ -1,125 +1,124 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="100%" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="1000" height="320">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0a0a16" />
-      <stop offset="50%" stop-color="#121224" />
-      <stop offset="100%" stop-color="#1a1a2e" />
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a16"/>
+      <stop offset="50%" stop-color="#121224"/>
+      <stop offset="100%" stop-color="#1a1a2e"/>
     </linearGradient>
-    <linearGradient id="wave1Grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#e94560" stop-opacity="0.25" />
-      <stop offset="50%" stop-color="#0f3460" stop-opacity="0.4" />
-      <stop offset="100%" stop-color="#e94560" stop-opacity="0.25" />
+    <linearGradient id="wave1g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e94560" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#0f3460" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#e94560" stop-opacity="0.3"/>
     </linearGradient>
-    <linearGradient id="wave2Grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0f3460" stop-opacity="0.6" />
-      <stop offset="50%" stop-color="#e94560" stop-opacity="0.3" />
-      <stop offset="100%" stop-color="#0f3460" stop-opacity="0.6" />
+    <linearGradient id="wave2g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0f3460" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#e94560" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#0f3460" stop-opacity="0.7"/>
     </linearGradient>
-    <linearGradient id="wave3Grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#16213e" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#0f3460" stop-opacity="0.9" />
+    <linearGradient id="wave3g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#16213e" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0f3460" stop-opacity="0.95"/>
     </linearGradient>
-    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.07" />
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02" />
+    <linearGradient id="glassGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.01"/>
     </linearGradient>
-    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25" />
-      <stop offset="30%" stop-color="#ffffff" stop-opacity="0.05" />
-      <stop offset="70%" stop-color="#e94560" stop-opacity="0.2" />
-      <stop offset="100%" stop-color="#e94560" stop-opacity="0.5" />
+    <linearGradient id="borderGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="50%" stop-color="#e94560" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#e94560" stop-opacity="0.55"/>
     </linearGradient>
-    <filter id="drop-shadow" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.65" />
-    </filter>
   </defs>
 
   <style>
-    @keyframes wave-flow-forward {
-      0% { transform: translateX(0); }
-      100% { transform: translateX(-1000px); }
-    }
-    @keyframes wave-flow-backward {
-      0% { transform: translateX(0); }
-      100% { transform: translateX(1000px); }
-    }
-    .wave1 { animation: wave-flow-forward 16s linear infinite; }
-    .wave2 { animation: wave-flow-backward 12s linear infinite; }
-    .wave3 { animation: wave-flow-forward 24s linear infinite; }
-    @keyframes pulse {
-      0% { opacity: 0.3; }
-      50% { opacity: 1; }
-      100% { opacity: 0.3; }
-    }
-    .cpu-glow { animation: pulse 3s ease-in-out infinite; }
+    @keyframes wf { 0%{transform:translateX(0)} 100%{transform:translateX(-1000px)} }
+    @keyframes wb { 0%{transform:translateX(0)} 100%{transform:translateX(1000px)} }
+    @keyframes pulse { 0%,100%{opacity:0.3} 50%{opacity:1} }
+    .w1{animation:wf 16s linear infinite}
+    .w2{animation:wb 12s linear infinite}
+    .w3{animation:wf 24s linear infinite}
+    .core{animation:pulse 3s ease-in-out infinite}
   </style>
 
-  <rect width="100%" height="100%" fill="url(#bgGrad)" />
+  <!-- Background -->
+  <rect width="1000" height="320" fill="url(#bgGrad)"/>
 
-  <g class="wave3">
-    <path d="M 0 160 Q 250 120 500 160 T 1000 160 T 1500 160 T 2000 160 L 2000 320 L 0 320 Z" fill="url(#wave3Grad)" />
+  <!-- Animated wave layers -->
+  <g class="w3">
+    <path d="M0 165 Q250 125 500 165 T1000 165 T1500 165 T2000 165 L2000 320 L0 320Z" fill="url(#wave3g)"/>
   </g>
-  <g class="wave1">
-    <path d="M 0 180 Q 250 150 500 180 T 1000 180 T 1500 180 T 2000 180 L 2000 320 L 0 320 Z" fill="url(#wave1Grad)" />
+  <g class="w1">
+    <path d="M0 185 Q250 155 500 185 T1000 185 T1500 185 T2000 185 L2000 320 L0 320Z" fill="url(#wave1g)"/>
   </g>
-  <g class="wave2">
-    <path d="M 0 170 Q 250 140 500 170 T 1000 170 T 1500 170 T 2000 170 L 2000 320 L 0 320 Z" fill="url(#wave2Grad)" />
+  <g class="w2">
+    <path d="M0 175 Q250 145 500 175 T1000 175 T1500 175 T2000 175 L2000 320 L0 320Z" fill="url(#wave2g)"/>
   </g>
 
+  <!-- Glass card (no filter, plain stroke instead) -->
   <rect x="120" y="60" width="760" height="200" rx="20" ry="20"
-        fill="url(#glassGrad)"
-        stroke="url(#borderGrad)"
-        stroke-width="1.5"
-        filter="url(#drop-shadow)" />
+        fill="url(#glassGrad)" stroke="url(#borderGrad)" stroke-width="1.5"/>
+  <!-- Subtle inner highlight -->
+  <rect x="121" y="61" width="758" height="198" rx="19" ry="19"
+        fill="none" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.05"/>
 
-  <!-- CPU Icon -->
-  <g transform="translate(170, 110)">
-    <rect x="10" y="10" width="80" height="80" rx="12" fill="#16213e" stroke="#ffffff" stroke-width="1.5" stroke-opacity="0.15" />
-    <rect x="15" y="15" width="70" height="70" rx="8" fill="none" stroke="#e94560" stroke-width="2" stroke-opacity="0.8" />
-    <rect x="30" y="30" width="40" height="40" rx="4" fill="#0f3460" stroke="#ffffff" stroke-width="1" stroke-opacity="0.3" />
-    <circle cx="50" cy="50" r="10" fill="#e94560" class="cpu-glow" />
-    <line x1="2" y1="30" x2="10" y2="30" stroke="#e94560" stroke-width="2" />
-    <line x1="2" y1="50" x2="10" y2="50" stroke="#e94560" stroke-width="2" />
-    <line x1="2" y1="70" x2="10" y2="70" stroke="#e94560" stroke-width="2" />
-    <line x1="90" y1="30" x2="98" y2="30" stroke="#e94560" stroke-width="2" />
-    <line x1="90" y1="50" x2="98" y2="50" stroke="#e94560" stroke-width="2" />
-    <line x1="90" y1="70" x2="98" y2="70" stroke="#e94560" stroke-width="2" />
-    <line x1="30" y1="2" x2="30" y2="10" stroke="#e94560" stroke-width="2" />
-    <line x1="50" y1="2" x2="50" y2="10" stroke="#e94560" stroke-width="2" />
-    <line x1="70" y1="2" x2="70" y2="10" stroke="#e94560" stroke-width="2" />
-    <line x1="30" y1="90" x2="30" y2="98" stroke="#e94560" stroke-width="2" />
-    <line x1="50" y1="90" x2="50" y2="98" stroke="#e94560" stroke-width="2" />
-    <line x1="70" y1="90" x2="70" y2="98" stroke="#e94560" stroke-width="2" />
+  <!-- CPU chip -->
+  <g transform="translate(168,108)">
+    <rect x="10" y="10" width="80" height="80" rx="12" fill="#16213e"
+          stroke="#ffffff" stroke-width="1" stroke-opacity="0.12"/>
+    <rect x="15" y="15" width="70" height="70" rx="8"
+          fill="none" stroke="#e94560" stroke-width="1.8" stroke-opacity="0.75"/>
+    <rect x="30" y="30" width="40" height="40" rx="4" fill="#0f3460"
+          stroke="#ffffff" stroke-width="0.8" stroke-opacity="0.25"/>
+    <circle cx="50" cy="50" r="10" fill="#e94560" class="core"/>
+    <!-- Pins left -->
+    <line x1="2"  y1="30" x2="10" y2="30" stroke="#e94560" stroke-width="2"/>
+    <line x1="2"  y1="50" x2="10" y2="50" stroke="#e94560" stroke-width="2"/>
+    <line x1="2"  y1="70" x2="10" y2="70" stroke="#e94560" stroke-width="2"/>
+    <!-- Pins right -->
+    <line x1="90" y1="30" x2="98" y2="30" stroke="#e94560" stroke-width="2"/>
+    <line x1="90" y1="50" x2="98" y2="50" stroke="#e94560" stroke-width="2"/>
+    <line x1="90" y1="70" x2="98" y2="70" stroke="#e94560" stroke-width="2"/>
+    <!-- Pins top -->
+    <line x1="30" y1="2"  x2="30" y2="10" stroke="#e94560" stroke-width="2"/>
+    <line x1="50" y1="2"  x2="50" y2="10" stroke="#e94560" stroke-width="2"/>
+    <line x1="70" y1="2"  x2="70" y2="10" stroke="#e94560" stroke-width="2"/>
+    <!-- Pins bottom -->
+    <line x1="30" y1="90" x2="30" y2="98" stroke="#e94560" stroke-width="2"/>
+    <line x1="50" y1="90" x2="50" y2="98" stroke="#e94560" stroke-width="2"/>
+    <line x1="70" y1="90" x2="70" y2="98" stroke="#e94560" stroke-width="2"/>
   </g>
 
   <!-- Name -->
-  <text x="290" y="130"
-        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-        font-weight="800" font-size="38" fill="#ffffff" letter-spacing="2">LEUL ABITI</text>
+  <text x="292" y="128"
+        font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
+        font-weight="800" font-size="40" fill="#ffffff" letter-spacing="3">LEUL ABITI</text>
 
   <!-- Role -->
-  <text x="290" y="160"
-        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-        font-weight="600" font-size="16" fill="#e94560" letter-spacing="3">FRONTEND DEVELOPER</text>
+  <text x="292" y="158"
+        font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
+        font-weight="600" font-size="15" fill="#e94560" letter-spacing="4">FRONTEND DEVELOPER</text>
 
   <!-- Location -->
-  <text x="290" y="195"
-        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-        font-weight="400" font-size="14" fill="#a8b2d8">&#x1F4CD; Addis Ababa, Ethiopia &#x1F1EA;&#x1F1F9;</text>
+  <text x="292" y="190"
+        font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
+        font-size="14" fill="#a8b2d8">Addis Ababa, Ethiopia</text>
 
-  <!-- Badges -->
-  <rect x="290" y="210" width="75" height="22" rx="11" fill="rgba(233,69,96,0.15)" stroke="#e94560" stroke-width="1" />
-  <text x="302" y="225"
-        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-        font-size="11" font-weight="600" fill="#e94560">&#x2736; UI/UX</text>
+  <!-- Pill badges -->
+  <rect x="292" y="206" width="72" height="22" rx="11" fill="#e94560" fill-opacity="0.15"
+        stroke="#e94560" stroke-width="1"/>
+  <text x="328" y="221" text-anchor="middle"
+        font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
+        font-size="11" font-weight="600" fill="#e94560">UI / UX</text>
 
-  <rect x="375" y="210" width="95" height="22" rx="11" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.15)" stroke-width="1" />
-  <text x="387" y="225"
-        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-        font-size="11" font-weight="600" fill="#a8b2d8">&#x2736; Clean Code</text>
+  <rect x="374" y="206" width="90" height="22" rx="11" fill="#ffffff" fill-opacity="0.04"
+        stroke="#ffffff" stroke-width="0.8" stroke-opacity="0.2"/>
+  <text x="419" y="221" text-anchor="middle"
+        font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
+        font-size="11" font-weight="600" fill="#a8b2d8">Clean Code</text>
 
-  <rect x="480" y="210" width="105" height="22" rx="11" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.15)" stroke-width="1" />
-  <text x="492" y="225"
-        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-        font-size="11" font-weight="600" fill="#a8b2d8">&#x2736; Open Source</text>
+  <rect x="474" y="206" width="100" height="22" rx="11" fill="#ffffff" fill-opacity="0.04"
+        stroke="#ffffff" stroke-width="0.8" stroke-opacity="0.2"/>
+  <text x="524" y="221" text-anchor="middle"
+        font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
+        font-size="11" font-weight="600" fill="#a8b2d8">Open Source</text>
 </svg>

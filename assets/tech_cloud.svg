@@ -1,122 +1,177 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="100%" height="220">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 230" width="800" height="230">
   <defs>
-    <linearGradient id="glassBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#16213e" stop-opacity="0.95" />
-      <stop offset="100%" stop-color="#0f3460" stop-opacity="0.8" />
+    <linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a2040"/>
+      <stop offset="100%" stop-color="#0d1530"/>
     </linearGradient>
-    <linearGradient id="cardBorder" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.2" />
-      <stop offset="50%" stop-color="#e94560" stop-opacity="0.1" />
-      <stop offset="100%" stop-color="#e94560" stop-opacity="0.3" />
+    <linearGradient id="topLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e94560" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#e94560" stop-opacity="0.9"/>
     </linearGradient>
-    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5" />
-    </filter>
-    <filter id="iconShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.4" />
-    </filter>
   </defs>
 
   <style>
-    @keyframes float-badge {
-      0% { transform: translateY(0px); }
-      50% { transform: translateY(-8px); }
-      100% { transform: translateY(0px); }
-    }
-    .b0 { animation: float-badge 4.0s 0.0s ease-in-out infinite; }
-    .b1 { animation: float-badge 4.5s 0.5s ease-in-out infinite; }
-    .b2 { animation: float-badge 5.0s 1.0s ease-in-out infinite; }
-    .b3 { animation: float-badge 4.2s 1.5s ease-in-out infinite; }
-    .b4 { animation: float-badge 4.8s 2.0s ease-in-out infinite; }
-    .b5 { animation: float-badge 4.6s 0.8s ease-in-out infinite; }
-    .b6 { animation: float-badge 4.4s 1.3s ease-in-out infinite; }
-    .b7 { animation: float-badge 5.2s 0.3s ease-in-out infinite; }
-    .b8 { animation: float-badge 4.7s 1.8s ease-in-out infinite; }
-    .b9 { animation: float-badge 4.9s 2.3s ease-in-out infinite; }
-    .lbl {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
-      font-size: 11px; font-weight: 600; fill: #a8b2d8; text-anchor: middle; opacity: 0.85;
+    @keyframes f0{0%,100%{transform:translateY(0px)}50%{transform:translateY(-7px)}}
+    @keyframes f1{0%,100%{transform:translateY(0px)}50%{transform:translateY(-9px)}}
+    @keyframes f2{0%,100%{transform:translateY(0px)}50%{transform:translateY(-6px)}}
+    .b0{animation:f0 4.0s 0.0s ease-in-out infinite}
+    .b1{animation:f1 4.5s 0.6s ease-in-out infinite}
+    .b2{animation:f2 5.0s 1.2s ease-in-out infinite}
+    .b3{animation:f0 4.3s 0.4s ease-in-out infinite}
+    .b4{animation:f1 4.8s 1.8s ease-in-out infinite}
+    .b5{animation:f2 4.6s 0.9s ease-in-out infinite}
+    .b6{animation:f0 4.4s 1.5s ease-in-out infinite}
+    .b7{animation:f1 5.2s 0.3s ease-in-out infinite}
+    .b8{animation:f2 4.7s 2.1s ease-in-out infinite}
+    .b9{animation:f0 4.9s 0.7s ease-in-out infinite}
+    .lbl{
+      font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+      font-size:11px;font-weight:600;fill:#a8b2d8;text-anchor:middle;
     }
   </style>
 
-  <!-- Card Frame -->
-  <rect x="10" y="10" width="780" height="200" rx="15" ry="15"
-        fill="url(#glassBg)" stroke="url(#cardBorder)" stroke-width="1.5" filter="url(#shadow)" />
+  <!-- Card -->
+  <rect width="800" height="230" rx="14" fill="url(#cardBg)"/>
+  <rect x="0" y="0" width="800" height="2" rx="1" fill="url(#topLine)"/>
+  <rect x="1" y="1" width="798" height="228" rx="13"
+        fill="none" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.06"/>
 
-  <!-- Row 1 -->
-  <!-- HTML5 -->
+  <!--
+    5-column grid: col centers at 80, 240, 400, 560, 720
+    Row 1 badge y=20, label y=98
+    Row 2 badge y=118, label y=196
+    Badge rect: x = center-30, width=60, height=60, rx=12
+  -->
+
+  <!-- ═══ ROW 1 ═══ -->
+
+  <!-- HTML5  col-1 cx=80 -->
   <g class="b0">
-    <rect x="60" y="45" width="50" height="50" rx="10" fill="rgba(255,255,255,0.03)" stroke="#e34f26" stroke-width="1.2" stroke-opacity="0.45" filter="url(#iconShadow)" />
-    <path d="M72 57h26l-2.4 25.3L85 87.5 74.4 82.3 72 57zM85 62h-8.8l.8 8.8h8V62zM85 75.8H80l-.3-3.6h5.3v-2.7H80l-.3-3.6h5.3v9.9z" fill="#e34f26" />
-    <text x="85" y="112" class="lbl">HTML5</text>
+    <rect x="50" y="20" width="60" height="60" rx="12"
+          fill="#e34f26" fill-opacity="0.12" stroke="#e34f26" stroke-width="1.3" stroke-opacity="0.55"/>
+    <!-- HTML tag icon -->
+    <text x="80" y="59" text-anchor="middle"
+          font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
+          font-size="17" font-weight="800" fill="#e34f26">&lt;/&gt;</text>
+    <text x="80" y="98" class="lbl">HTML5</text>
   </g>
 
-  <!-- CSS3 -->
+  <!-- CSS3  col-2 cx=240 -->
   <g class="b1">
-    <rect x="200" y="45" width="50" height="50" rx="10" fill="rgba(255,255,255,0.03)" stroke="#1572b6" stroke-width="1.2" stroke-opacity="0.45" filter="url(#iconShadow)" />
-    <path d="M212 57h26l-2.4 25.3L225 87.5 214.4 82.3 212 57zM225 62h-8.8l.8 8.8h8V62zM225 75.8H220l-.3-3.6h5.3v-2.7H220l-.3-3.6h5.3v9.9z" fill="#1572b6" />
-    <text x="225" y="112" class="lbl">CSS3</text>
+    <rect x="210" y="20" width="60" height="60" rx="12"
+          fill="#1572b6" fill-opacity="0.12" stroke="#1572b6" stroke-width="1.3" stroke-opacity="0.55"/>
+    <!-- # symbol -->
+    <text x="240" y="60" text-anchor="middle"
+          font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
+          font-size="26" font-weight="800" fill="#1572b6">#</text>
+    <text x="240" y="98" class="lbl">CSS3</text>
   </g>
 
-  <!-- JavaScript -->
+  <!-- JavaScript  col-3 cx=400 -->
   <g class="b2">
-    <rect x="340" y="45" width="50" height="50" rx="10" fill="rgba(255,255,255,0.03)" stroke="#f7df1e" stroke-width="1.2" stroke-opacity="0.45" filter="url(#iconShadow)" />
-    <rect x="350" y="55" width="30" height="30" rx="2" fill="#f7df1e" />
-    <text x="352" y="79" font-family="'Courier New', monospace" font-size="9" font-weight="700" fill="#000">JS</text>
-    <text x="365" y="112" class="lbl">JavaScript</text>
+    <rect x="370" y="20" width="60" height="60" rx="12"
+          fill="#f7df1e" fill-opacity="0.12" stroke="#f7df1e" stroke-width="1.3" stroke-opacity="0.55"/>
+    <!-- JS badge square -->
+    <rect x="382" y="32" width="36" height="36" rx="4" fill="#f7df1e"/>
+    <text x="400" y="57" text-anchor="middle"
+          font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
+          font-size="13" font-weight="900" fill="#1a1a00">JS</text>
+    <text x="400" y="98" class="lbl">JavaScript</text>
   </g>
 
-  <!-- Python -->
+  <!-- Python  col-4 cx=560 -->
   <g class="b3">
-    <rect x="480" y="45" width="50" height="50" rx="10" fill="rgba(255,255,255,0.03)" stroke="#3776ab" stroke-width="1.2" stroke-opacity="0.45" filter="url(#iconShadow)" />
-    <path d="M505 54c-5 0-5 .8-5 2.5v3h5v.5h-7.5c-1.7 0-2.5 1-2.5 3v6.5c0 1.7.8 2.5 2.5 2.5h2v-3c0-2 1.5-3.5 3.5-3.5h7c1.7 0 2.5-.8 2.5-2.5v-4c0-1.7-.8-2.5-2.5-2.5h-5.5zM501 56.5a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z" fill="#3776ab" />
-    <path d="M505 86c5 0 5-.8 5-2.5v-3h-5v-.5h7.5c1.7 0 2.5-1 2.5-3v-6.5c0-1.7-.8-2.5-2.5-2.5h-2v3c0 2-1.5 3.5-3.5 3.5h-7c-1.7 0-2.5.8-2.5 2.5v4c0 1.7.8 2.5 2.5 2.5h5.5zM509 81.5a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z" fill="#ffd43b" />
-    <text x="505" y="112" class="lbl">Python</text>
+    <rect x="530" y="20" width="60" height="60" rx="12"
+          fill="#3776ab" fill-opacity="0.12" stroke="#3776ab" stroke-width="1.3" stroke-opacity="0.55"/>
+    <!-- Two-tone Py text -->
+    <text x="554" y="60" text-anchor="middle"
+          font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
+          font-size="22" font-weight="800" fill="#3776ab">P</text>
+    <text x="572" y="60" text-anchor="middle"
+          font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
+          font-size="22" font-weight="800" fill="#ffd43b">y</text>
+    <text x="560" y="98" class="lbl">Python</text>
   </g>
 
-  <!-- Java -->
+  <!-- Java  col-5 cx=720 -->
   <g class="b4">
-    <rect x="620" y="45" width="50" height="50" rx="10" fill="rgba(255,255,255,0.03)" stroke="#e76f51" stroke-width="1.2" stroke-opacity="0.45" filter="url(#iconShadow)" />
-    <text x="645" y="77" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="800" fill="#e76f51">J</text>
-    <text x="645" y="112" class="lbl">Java</text>
+    <rect x="690" y="20" width="60" height="60" rx="12"
+          fill="#e76f51" fill-opacity="0.12" stroke="#e76f51" stroke-width="1.3" stroke-opacity="0.55"/>
+    <!-- Coffee cup icon shape -->
+    <rect x="704" y="33" width="24" height="22" rx="2" fill="none" stroke="#e76f51" stroke-width="2"/>
+    <path d="M728 40 h5 a4 4 0 0 1 0 8 h-5" fill="none" stroke="#e76f51" stroke-width="2"/>
+    <line x1="706" y1="55" x2="730" y2="55" stroke="#e76f51" stroke-width="1.5" stroke-opacity="0.5"/>
+    <path d="M706 61 q6-4 12 0 t12 0" fill="none" stroke="#e76f51" stroke-width="1.5" stroke-opacity="0.6"/>
+    <text x="720" y="98" class="lbl">Java</text>
   </g>
 
-  <!-- Row 2 -->
-  <!-- MySQL -->
+  <!-- ═══ ROW 2 ═══ -->
+
+  <!-- MySQL  col-1 cx=80 -->
   <g class="b5">
-    <rect x="130" y="125" width="50" height="50" rx="10" fill="rgba(255,255,255,0.03)" stroke="#00758f" stroke-width="1.2" stroke-opacity="0.45" filter="url(#iconShadow)" />
-    <ellipse cx="155" cy="137" rx="14" ry="4" fill="#00758f" />
-    <path d="M141 137v8c0 2.2 6.3 4 14 4s14-1.8 14-4v-8" fill="none" stroke="#00758f" stroke-width="1.5" />
-    <path d="M141 145v8c0 2.2 6.3 4 14 4s14-1.8 14-4v-8" fill="none" stroke="#00758f" stroke-width="1.5" />
-    <text x="155" y="192" class="lbl">MySQL</text>
+    <rect x="50" y="118" width="60" height="60" rx="12"
+          fill="#00758f" fill-opacity="0.12" stroke="#00758f" stroke-width="1.3" stroke-opacity="0.55"/>
+    <!-- Database cylinder -->
+    <ellipse cx="80" cy="138" rx="15" ry="5" fill="#00758f" fill-opacity="0.7"/>
+    <rect x="65" y="138" width="30" height="18" fill="#00758f" fill-opacity="0.15"/>
+    <ellipse cx="80" cy="156" rx="15" ry="5" fill="none" stroke="#00758f" stroke-width="1.8"/>
+    <line x1="65" y1="138" x2="65" y2="156" stroke="#00758f" stroke-width="1.8"/>
+    <line x1="95" y1="138" x2="95" y2="156" stroke="#00758f" stroke-width="1.8"/>
+    <text x="80" y="196" class="lbl">MySQL</text>
   </g>
 
-  <!-- Git -->
+  <!-- Git  col-2 cx=240 -->
   <g class="b6">
-    <rect x="270" y="125" width="50" height="50" rx="10" fill="rgba(255,255,255,0.03)" stroke="#f05032" stroke-width="1.2" stroke-opacity="0.45" filter="url(#iconShadow)" />
-    <path d="M295.3 129.2l12.4 12.4c.5.5.5 1.2 0 1.7l-12.4 12.4c-.5.5-1.2.5-1.7 0l-12.4-12.4c-.5-.5-.5-1.2 0-1.7l12.4-12.4c.5-.5 1.2-.5 1.7 0zm-3 8.3v6c.6.3 1 .9 1 1.6 0 1-.8 1.8-1.8 1.8s-1.8-.8-1.8-1.8c0-.7.4-1.3 1-1.6v-6c-.6-.3-1-.9-1-1.6 0-1 .8-1.8 1.8-1.8s1.8.8 1.8 1.8c0 .7-.4 1.3-1 1.6z" fill="#f05032" />
-    <text x="295" y="192" class="lbl">Git</text>
+    <rect x="210" y="118" width="60" height="60" rx="12"
+          fill="#f05032" fill-opacity="0.12" stroke="#f05032" stroke-width="1.3" stroke-opacity="0.55"/>
+    <!-- Git diamond + branch -->
+    <path d="M240 123 l11 11c.5.5.5 1.2 0 1.7l-11 11c-.5.5-1.2.5-1.7 0l-11-11c-.5-.5-.5-1.2 0-1.7l11-11c.5-.5 1.2-.5 1.7 0z"
+          fill="#f05032" fill-opacity="0.9"/>
+    <circle cx="240" cy="135" r="3" fill="#fff" fill-opacity="0.8"/>
+    <line x1="240" y1="146" x2="240" y2="168" stroke="#f05032" stroke-width="2"/>
+    <circle cx="240" cy="168" r="3" fill="#f05032"/>
+    <text x="240" y="196" class="lbl">Git</text>
   </g>
 
-  <!-- GitHub -->
+  <!-- GitHub  col-3 cx=400 -->
   <g class="b7">
-    <rect x="410" y="125" width="50" height="50" rx="10" fill="rgba(255,255,255,0.03)" stroke="#a8b2d8" stroke-width="1.2" stroke-opacity="0.45" filter="url(#iconShadow)" />
-    <path d="M435 129c-8.3 0-15 6.7-15 15 0 6.6 4.3 12.2 10.3 14.2.8.1 1-.3 1-.7v-2.7c-4.2.9-5-2-5-2-.7-1.7-1.7-2.2-1.7-2.2-1.4-.9.1-.9.1-.9 1.5.1 2.3 1.5 2.3 1.5 1.3 2.3 3.5 1.6 4.4 1.2.1-1 .5-1.6 1-2-3.3-.4-6.8-1.7-6.8-7.4 0-1.6.6-3 1.5-4-.1-.4-.7-1.9.1-4 0 0 1.2-.4 4.1 1.5a14.2 14.2 0 0 1 7.8 0c2.9-1.9 4.1-1.5 4.1-1.5.9 2.1.3 3.6.1 4 .9 1 1.5 2.4 1.5 4 0 5.7-3.5 7-6.8 7.4.5.5 1 1.4 1 2.8v4.2c0 .4.3.8 1 .7 6-2 10.3-7.6 10.3-14.2 0-8.3-6.7-15-15-15z" fill="#a8b2d8" />
-    <text x="435" y="192" class="lbl">GitHub</text>
+    <rect x="370" y="118" width="60" height="60" rx="12"
+          fill="#a8b2d8" fill-opacity="0.08" stroke="#a8b2d8" stroke-width="1.3" stroke-opacity="0.4"/>
+    <!-- GitHub Octocat path (official, scaled to fit) -->
+    <path transform="translate(382,128) scale(0.75)"
+          d="M24 0C10.7 0 0 10.7 0 24c0 10.6 6.9 19.6 16.4 22.8 1.2.2 1.6-.5 1.6-1.2v-4.2c-6.7 1.4-8.1-3.2-8.1-3.2-1.1-2.8-2.7-3.5-2.7-3.5-2.2-1.5.2-1.5.2-1.5 2.4.2 3.7 2.5 3.7 2.5 2.1 3.7 5.6 2.6 7 2 .2-1.6.8-2.6 1.5-3.2-5.3-.6-10.8-2.6-10.8-11.7 0-2.6.9-4.7 2.4-6.3-.2-.6-1-3 .2-6.3 0 0 2-.6 6.5 2.4 1.9-.5 3.9-.8 5.9-.8s4 .3 5.9.8c4.5-3 6.5-2.4 6.5-2.4 1.3 3.2.5 5.6.2 6.3 1.5 1.6 2.4 3.7 2.4 6.3 0 9.1-5.6 11.1-10.9 11.7.9.7 1.6 2.2 1.6 4.5v6.6c0 .6.4 1.4 1.6 1.2C41.1 43.6 48 34.6 48 24 48 10.7 37.3 0 24 0z"
+          fill="#a8b2d8"/>
+    <text x="400" y="196" class="lbl">GitHub</text>
   </g>
 
-  <!-- VS Code -->
+  <!-- VS Code  col-4 cx=560 -->
   <g class="b8">
-    <rect x="550" y="125" width="50" height="50" rx="10" fill="rgba(255,255,255,0.03)" stroke="#007acc" stroke-width="1.2" stroke-opacity="0.45" filter="url(#iconShadow)" />
-    <path d="M571.4 133.5l1.8 1 1.5-1.5v22l-1.5-1.5-1.8 1c-.3.2-.7-.1-.7-.5v-20c0-.4.4-.7.7-.5zm2.8 2.2V154.3l6.5-6.5-6.5-6.5zm-5.7 15.6l-5.3-4.5 5.3-4.5v9zm1.3-4.5l12.5-9.3-3.2-2.3-9.3 11.6zM574.2 135.2l9.3 11.6 3.2-2.3-12.5-9.3z" fill="#007acc" />
-    <text x="575" y="192" class="lbl">VS Code</text>
+    <rect x="530" y="118" width="60" height="60" rx="12"
+          fill="#007acc" fill-opacity="0.12" stroke="#007acc" stroke-width="1.3" stroke-opacity="0.55"/>
+    <!-- VS Code shield icon -->
+    <path transform="translate(537,125)"
+          d="M3 1.5 L15.5 13 3 24.5 0 21.5 9.7 13 0 4.5z
+             M18 0 L18 26 15 24.5 15 1.5z
+             M15.5 13 L18 11.5 30 18 27 21z
+             M15.5 13 L27 5 30 8 18 14.5z"
+          fill="#007acc" fill-rule="evenodd"/>
+    <text x="560" y="196" class="lbl">VS Code</text>
   </g>
 
-  <!-- Canva -->
+  <!-- Canva  col-5 cx=720 -->
   <g class="b9">
-    <rect x="690" y="125" width="50" height="50" rx="10" fill="rgba(255,255,255,0.03)" stroke="#00c4cc" stroke-width="1.2" stroke-opacity="0.45" filter="url(#iconShadow)" />
-    <circle cx="715" cy="150" r="14" fill="none" stroke="#00c4cc" stroke-width="2.5" />
-    <circle cx="715" cy="150" r="6" fill="#00c4cc" />
-    <text x="715" y="192" class="lbl">Canva</text>
+    <rect x="690" y="118" width="60" height="60" rx="12"
+          fill="#00c4cc" fill-opacity="0.12" stroke="#00c4cc" stroke-width="1.3" stroke-opacity="0.55"/>
+    <!-- Canva circle/flower icon -->
+    <circle cx="720" cy="148" r="14" fill="none" stroke="#00c4cc" stroke-width="2.5"/>
+    <circle cx="720" cy="148" r="5" fill="#00c4cc"/>
+    <!-- petals -->
+    <circle cx="720" cy="134" r="3" fill="#00c4cc" fill-opacity="0.5"/>
+    <circle cx="720" cy="162" r="3" fill="#00c4cc" fill-opacity="0.5"/>
+    <circle cx="706" cy="148" r="3" fill="#00c4cc" fill-opacity="0.5"/>
+    <circle cx="734" cy="148" r="3" fill="#00c4cc" fill-opacity="0.5"/>
+    <text x="720" y="196" class="lbl">Canva</text>
   </g>
+
 </svg>
