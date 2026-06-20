@@ -1,117 +1,185 @@
 <div align="center">
 
-<!-- Animated Banner — capsule-render is very reliable -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=220&section=header&text=Hey%2C%20I'm%20Leul%20%F0%9F%91%8B&fontSize=50&fontColor=e94560&animation=fadeIn&fontAlignY=38&desc=Frontend%20Developer%20%C2%B7%20Ethiopia%20%F0%9F%87%AA%F0%9F%87%B9&descAlignY=58&descSize=20&descColor=a8b2d8" width="100%"/>
+<!-- Layered Header Banner -->
+<img src="assets/header.svg" width="100%" alt="Leul Abiti Banner" />
 
 <br/>
 
-### ✨ Crafting beautiful web experiences &nbsp;|&nbsp; 💻 Turning ideas into clean code &nbsp;|&nbsp; 🚀 Always building
+<!-- Typing Intro Mission Statement -->
+<img src="assets/typing_intro.svg" width="100%" alt="Core Missions" />
+
+</div>
+
+---
+
+<!-- Two-Column Widget Layout -->
+<table width="100%" border="0" cellspacing="10" cellpadding="0">
+  <tr>
+    <!-- Left Column: Profile Data -->
+    <td width="49%" valign="top">
+      
+      <!-- Widget 1: About Me (IDE Code Terminal) -->
+      <img src="assets/about_me.svg" width="100%" alt="About Me terminal" />
+      
+      <br/><br/>
+      
+      <!-- Widget 2: Connect With Me -->
+      <table width="100%" border="0" cellspacing="0" cellpadding="8" style="border-collapse: collapse;">
+        <tr>
+          <td bgcolor="#16213e" align="center">
+            <font size="3" color="#e94560"><b>🌐 CONNECT WITH ME</b></font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#16213e" align="center">
+            <br/>
+            <a href="https://linkedin.com/in/Leul-Abiti" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-e94560?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a1a2e" alt="LinkedIn" /></a>
+            <a href="https://instagram.com/leul_my2" target="_blank"><img src="https://img.shields.io/badge/Instagram-e94560?style=for-the-badge&logo=instagram&logoColor=white&labelColor=1a1a2e" alt="Instagram" /></a>
+            <a href="https://tiktok.com/@usernah1" target="_blank"><img src="https://img.shields.io/badge/TikTok-e94560?style=for-the-badge&logo=tiktok&logoColor=white&labelColor=1a1a2e" alt="TikTok" /></a>
+            <br/><br/>
+            <a href="https://x.com/@leulleo8" target="_blank"><img src="https://img.shields.io/badge/X-e94560?style=for-the-badge&logo=x&logoColor=white&labelColor=1a1a2e" alt="X" /></a>
+            <a href="https://mastodon.social/@Leul" target="_blank"><img src="https://img.shields.io/badge/Mastodon-e94560?style=for-the-badge&logo=mastodon&logoColor=white&labelColor=1a1a2e" alt="Mastodon" /></a>
+            <a href="mailto:leulabiti97@gmail.com"><img src="https://img.shields.io/badge/Gmail-e94560?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1a2e" alt="Gmail" /></a>
+            <br/><br/>
+          </td>
+        </tr>
+      </table>
+
+    </td>
+
+    <!-- Right Column: Live Analytics -->
+    <td width="49%" valign="top">
+      
+      <!-- Widget 3: Live System Analytics -->
+      <table width="100%" border="0" cellspacing="0" cellpadding="8" style="border-collapse: collapse;">
+        <tr>
+          <td bgcolor="#16213e" align="center">
+            <font size="3" color="#e94560"><b>📊 SYSTEM ANALYTICS</b></font>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#16213e" align="center">
+            <br/>
+            <!-- GitHub Stats Card -->
+            <img src="https://github-readme-stats.vercel.app/api?username=leul-cpu&show_icons=true&bg_color=16213e&title_color=e94560&icon_color=e94560&text_color=a8b2d8&hide_border=true&count_private=true&include_all_commits=true" width="95%" alt="GitHub Stats" />
+            <br/><br/>
+            <!-- Top Languages Card -->
+            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=leul-cpu&layout=compact&bg_color=16213e&title_color=e94560&icon_color=e94560&text_color=a8b2d8&hide_border=true&count_private=true" width="95%" alt="Top Languages" />
+            <br/><br/>
+            <!-- Streak Stats Card -->
+            <img src="https://streak-stats.demolab.com?user=leul-cpu&background=16213e&fire=e94560&ring=e94560&currStreakNum=e94560&sideLabels=a8b2d8&dates=a8b2d8&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" width="95%" alt="Streak Stats" />
+            <br/><br/>
+          </td>
+        </tr>
+      </table>
+
+    </td>
+  </tr>
+</table>
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=leul-cpu&color=e94560&style=flat-square&label=Profile+Views)
-[![GitHub followers](https://img.shields.io/github/followers/leul-cpu?style=flat-square&color=e94560&label=Followers)](https://github.com/leul-cpu)
+<!-- Floating Tech Cloud Widget -->
+<table width="100%" border="0" cellspacing="0" cellpadding="8" style="border-collapse: collapse;">
+  <tr>
+    <td bgcolor="#16213e" align="center">
+      <font size="3" color="#e94560"><b>🛠️ INTEGRATED TECH STACK</b></font>
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="#16213e" align="center">
+      <img src="assets/tech_cloud.svg" width="100%" alt="Tech Cloud" />
+    </td>
+  </tr>
+</table>
 
-</div>
+<br/>
 
----
+<!-- Project Spotlight (Mission Log Table) -->
+<table width="100%" border="0" cellspacing="0" cellpadding="8" style="border-collapse: collapse;">
+  <tr>
+    <td bgcolor="#16213e" align="center">
+      <font size="3" color="#e94560"><b>🚀 FEATURED MISSION LOGS (PROJECTS)</b></font>
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="#16213e">
+      
+      <table width="100%" border="0" cellspacing="1" cellpadding="10">
+        <thead>
+          <tr bgcolor="#1a1a2e">
+            <th align="center" width="10%"><font color="#e94560">ID</font></th>
+            <th align="left" width="25%"><font color="#e94560">PROJECT</font></th>
+            <th align="left" width="40%"><font color="#e94560">MISSION OBJECTIVE</font></th>
+            <th align="center" width="15%"><font color="#e94560">TECH STACK</font></th>
+            <th align="center" width="10%"><font color="#e94560">STATUS</font></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr bgcolor="#0f3460">
+            <td align="center"><b>ML-01</b></td>
+            <td><a href="https://github.com/leul-cpu/leulfit" style="color: #ffffff; text-decoration: none;"><b>💪 LeulFit</b></a></td>
+            <td>Fitness-focused web application for tracking workouts and health statistics.</td>
+            <td align="center"><font color="#a8b2d8">HTML / CSS</font></td>
+            <td align="center"><font color="#00ffcc">● Stable</font></td>
+          </tr>
+          <tr bgcolor="#121224">
+            <td align="center"><b>ML-02</b></td>
+            <td><a href="https://github.com/leul-cpu/MED-CHAIN" style="color: #ffffff; text-decoration: none;"><b>🏥 MED-CHAIN</b></a></td>
+            <td>Secure medical chain flow simulator for managing health logs.</td>
+            <td align="center"><font color="#a8b2d8">JavaScript</font></td>
+            <td align="center"><font color="#ffcc00">● Active</font></td>
+          </tr>
+          <tr bgcolor="#0f3460">
+            <td align="center"><b>ML-03</b></td>
+            <td><a href="https://github.com/leul-cpu/My-Portifolio" style="color: #ffffff; text-decoration: none;"><b>🌐 My Portfolio</b></a></td>
+            <td>All interactive components and professional client records in one portal.</td>
+            <td align="center"><font color="#a8b2d8">HTML / CSS</font></td>
+            <td align="center"><font color="#00ffcc">● Live</font></td>
+          </tr>
+          <tr bgcolor="#121224">
+            <td align="center"><b>ML-04</b></td>
+            <td><a href="https://github.com/leul-cpu/Bellanawit" style="color: #ffffff; text-decoration: none;"><b>💼 Client Sites</b></a></td>
+            <td>Client portfolio websites for Bellanawit and Moh with modern animations.</td>
+            <td align="center"><font color="#a8b2d8">HTML / CSS</font></td>
+            <td align="center"><font color="#00ffcc">● Deployed</font></td>
+          </tr>
+          <tr bgcolor="#0f3460">
+            <td align="center"><b>ML-05</b></td>
+            <td><a href="https://github.com/leul-cpu/Simple-Task-Manager" style="color: #ffffff; text-decoration: none;"><b>📝 Task Manager</b></a></td>
+            <td>A clean and lightweight web-based interface for managing task streams.</td>
+            <td align="center"><font color="#a8b2d8">JS / HTML</font></td>
+            <td align="center"><font color="#00ffcc">● Complete</font></td>
+          </tr>
+        </tbody>
+      </table>
 
-## 🧑‍💻 About Me
+    </td>
+  </tr>
+</table>
 
-```javascript
-const leul = {
-  name:         "Leul Abiti",
-  location:     "Addis Ababa, Ethiopia 🇪🇹",
-  role:         "Frontend Developer",
-  passion:      "Building clean, responsive & user-friendly UIs",
-  currentFocus: ["JavaScript", "UI/UX Design", "Open Source"],
-  funFact:      "I debug with console.log and I'm proud of it 😄",
-  contact:      "leulabiti97@gmail.com"
-};
-```
+<br/>
 
----
+<!-- Contribution Snake (Framed as Live System Monitor) -->
+<table width="100%" border="0" cellspacing="0" cellpadding="8" style="border-collapse: collapse;">
+  <tr>
+    <td bgcolor="#16213e" align="center">
+      <font size="3" color="#e94560"><b>👾 LIVE SYSTEM MONITOR (ACTIVITY GRID)</b></font>
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="#16213e" align="center">
+      <br/>
+      <img src="https://raw.githubusercontent.com/leul-cpu/leul-cpu/output/github-contribution-grid-snake-dark.svg" width="95%" alt="Contribution Grid Monitor" />
+      <br/><br/>
+    </td>
+  </tr>
+</table>
 
-## 🛠️ Tech Stack
+<br/>
 
 <div align="center">
 
-**Languages**
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-
-**Database & Tools**
-
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-
-</div>
-
----
-
-## 🚀 Featured Projects
-
-<div align="center">
-
-| 🔥 Project | 📝 Description | 🛠 Stack |
-|:---:|:---:|:---:|
-| [**💪 LeulFit**](https://github.com/leul-cpu/leulfit) | Fitness-focused web app | HTML, CSS |
-| [**🏥 MED-CHAIN**](https://github.com/leul-cpu/MED-CHAIN) | Medical chain application | JavaScript |
-| [**🌐 My Portfolio**](https://github.com/leul-cpu/My-Portifolio) | All my works in one place | HTML, CSS |
-| [**💼 Bellanawit**](https://github.com/leul-cpu/Bellanawit), [**Moh**](https://github.com/leul-cpu/Moh) | Client portfolio sites | CSS, HTML |
-| [**📝 Simple Task Manager**](https://github.com/leul-cpu/Simple-Task-Manager) | A clean task management app | HTML, CSS, JavaScript |
-
-</div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=leul-cpu&theme=onedark&no-frame=true&no-bg=true&margin-w=10&column=4" alt="GitHub Trophies"/>
-</div>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=leul-cpu&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leul-cpu&layout=compact&theme=tokyonight&hide_border=true&count_private=true"/>
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=leul-cpu&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak"/>
-</div>
-
----
-
-## 🌐 Connect With Me
-
-<div align="center">
-
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/leul_my2)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/Leul-Abiti)
-[![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?style=for-the-badge&logo=TikTok&logoColor=white)](https://tiktok.com/@usernah1)
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/@leulleo8)
-[![Mastodon](https://img.shields.io/badge/Mastodon-6364FF?style=for-the-badge&logo=Mastodon&logoColor=white)](https://mastodon.social/@Leul)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:leulabiti97@gmail.com)
-
-</div>
-
----
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=120&section=footer" width="100%"/>
-
-*⭐ If you like what you see, drop a star — it means the world! 🙏*
+<font color="#a8b2d8"><i>⭐ If you like what you see, drop a star — it means the world! 🙏</i></font>
 
 </div>
