@@ -6,7 +6,7 @@
 <br/>
 
 <!-- Typing Effect Intro -->
-<a href="https://git.io/typing-svg">
+<a href="https://git.io/typing-svg" aria-label="Animated typing intro: Crafting beautiful web experiences, Turning ideas into clean code, Always building the future">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=E94560&center=true&vCenter=true&width=500&lines=%E2%9C%A8+Crafting+beautiful+web+experiences;%F0%9F%92%BB+Turning+ideas+into+clean+code;%F0%9F%9A%80+Always+building+the+future" alt="Typing animation: Crafting beautiful web experiences, Turning ideas into clean code, Always building the future" />
 </a>
 
@@ -99,7 +99,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leul-cpu/leul-cpu/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/leul-cpu/leul-cpu/output/github-contribution-grid-snake.svg">
-    <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/leul-cpu/leul-cpu/output/github-contribution-grid-snake.svg">
+    <img alt="Animated snake eating contribution cells, reflecting the GitHub activity of leul-cpu" src="https://raw.githubusercontent.com/leul-cpu/leul-cpu/output/github-contribution-grid-snake.svg">
   </picture>
 </div>
 
