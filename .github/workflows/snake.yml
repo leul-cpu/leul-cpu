@@ -23,8 +23,8 @@ jobs:
         with:
           github_user_name: leul-cpu
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=#e94560&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#e94560&color_dots=#1a1a2e,#16213e,#0f3460,#533483,#e94560
 
       # 2. Ensure the dist directory exists (it should be created by the previous step, but just in case)
       - name: Ensure dist exists
@@ -37,7 +37,7 @@ jobs:
       # 4. Generate View Counter badge
       - name: Generate View Counter
         run: |
-          curl "https://komarev.com/ghpvc/?username=leul-cpu&color=blueviolet&style=for-the-badge" -o dist/views.svg
+          curl "https://komarev.com/ghpvc/?username=leul-cpu&color=e94560&style=for-the-badge" -o dist/views.svg
 
       # 5. Push all files to the output branch
       - name: push files to the output branch
