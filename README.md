@@ -25,7 +25,9 @@
 <div align="center">
   <!-- Stylized Cloud of Icons -->
   <p align="center">
-    <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,nodejs,python,java,mysql,git,github,vscode,figma,canva&perline=8" width="100%" alt="Tech Stack: HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS, Node.js, Python, Java, MySQL, Git, GitHub, VS Code, Figma, Canva" />
+    <a href="https://github.com/leul-cpu?tab=repositories" aria-label="View Leul's tech stack related repositories on GitHub">
+      <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,nodejs,python,java,mysql,git,github,vscode,figma,canva&perline=8" width="100%" alt="Tech Stack: HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS, Node.js, Python, Java, MySQL, Git, GitHub, VS Code, Figma, Canva" />
+    </a>
   </p>
 </div>
 
@@ -39,13 +41,13 @@
         <h3>👤 About Me</h3>
         <p>
           <a href="https://www.google.com/maps/place/Addis+Ababa,+Ethiopia" aria-label="View Addis Ababa, Ethiopia on Google Maps"><img src="https://img.shields.io/badge/Location-Addis%20Ababa%2C%20Ethiopia-16213e?style=flat-square&logo=googlemaps&logoColor=e94560" alt="Location: Addis Ababa, Ethiopia" /></a><br/>
-          <img src="https://img.shields.io/badge/Focus-JavaScript%20%26%20UI%2FUX-16213e?style=flat-square&logo=javascript&logoColor=e94560" alt="Focus: JavaScript & UI/UX" /><br/>
-          <img src="https://img.shields.io/badge/Hobbies-Open%20Source%20%26%20Design-16213e?style=flat-square&logo=opensourceinitiative&logoColor=e94560" alt="Hobbies: Open Source & Design" />
+          <a href="https://github.com/leul-cpu?tab=repositories&q=&type=&language=javascript" aria-label="View Leul's JavaScript projects"><img src="https://img.shields.io/badge/Focus-JavaScript%20%26%20UI%2FUX-16213e?style=flat-square&logo=javascript&logoColor=e94560" alt="Focus: JavaScript & UI/UX" /></a><br/>
+          <a href="https://github.com/leul-cpu?tab=repositories" aria-label="View Leul's open source projects"><img src="https://img.shields.io/badge/Hobbies-Open%20Source%20%26%20Design-16213e?style=flat-square&logo=opensourceinitiative&logoColor=e94560" alt="Hobbies: Open Source & Design" /></a>
         </p>
         <p>I build clean, responsive interfaces that bridge the gap between complex logic and elegant design. Currently exploring the intersection of <b>Open Source</b> and <b>Creative Frontend</b>.</p>
         <p align="center">
-          <a href="https://instagram.com/leul_my2" aria-label="Visit Leul's Instagram"><img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" height="25" alt="Instagram"/></a>&nbsp;
-          <a href="https://linkedin.com/in/Leul-Abiti" aria-label="Visit Leul's LinkedIn"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="25" alt="LinkedIn"/></a>&nbsp;
+          <a href="https://instagram.com/leul_my2" aria-label="Visit Leul's Instagram"><img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" height="25" alt="Instagram"/></a>&nbsp;&nbsp;
+          <a href="https://linkedin.com/in/Leul-Abiti" aria-label="Visit Leul's LinkedIn"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="25" alt="LinkedIn"/></a>&nbsp;&nbsp;
           <a href="mailto:leulabiti97@gmail.com" aria-label="Send an email to Leul"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="25" alt="Email"/></a>
         </p>
       </td>
@@ -110,6 +112,6 @@
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=120&section=footer" width="100%" alt="Footer decoration"/>
 
-*⭐ If you like what you see, <a href="https://github.com/leul-cpu/leul-cpu" aria-label="Star this repository on GitHub">drop a star</a> — it means the world! 🙏*
+*If you like what you see, <a href="https://github.com/leul-cpu/leul-cpu" aria-label="Star this repository on GitHub">⭐ drop a star</a> — it means the world! 🙏*
 
 </div>

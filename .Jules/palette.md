@@ -11,3 +11,7 @@
 ## 2026-07-09 - [Interactive Dashboard Elements]
 **Learning:** Profile READMEs often function as dashboards. Static stats cards and animations (like the contribution snake) can be frustrating if they aren't interactive. Wrapping them in links to the source data (GitHub profile, repositories, or contribution graph) makes the "dashboard" feel alive and provides immediate value to visitors.
 **Action:** Always wrap stats cards, contribution graphs, and significant badges in links to their respective live destinations on GitHub, ensuring each has a descriptive `aria-label`.
+
+## 2026-07-10 - [Maximizing Interactive Targets in CTAs]
+**Learning:** Emojis used as visual cues for links (like a star for repository starring) should be placed inside the anchor tag. This increases the clickable area and ensures the visual cue is programmatically associated with the action for both mouse and touch users.
+**Action:** When a link is preceded or followed by a related emoji, wrap both in the `<a>` tag to improve UX and accessibility.
