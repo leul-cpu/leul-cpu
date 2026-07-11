@@ -1,7 +1,9 @@
 <div align="center">
 
 <!-- Glassmorphism Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=240&section=header&text=Leul%20Abiti&fontSize=70&fontColor=e94560&animation=fadeIn&fontAlignY=35&desc=Frontend%20Developer%20%C2%B7%20UI/UX%20Enthusiast&descAlignY=55&descSize=20&descColor=a8b2d8" width="100%" alt="Leul Abiti - Frontend Developer & UI/UX Enthusiast"/>
+<a href="https://github.com/leul-cpu" aria-label="View Leul Abiti's GitHub profile">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=240&section=header&text=Leul%20Abiti&fontSize=70&fontColor=e94560&animation=fadeIn&fontAlignY=35&desc=Frontend%20Developer%20%C2%B7%20UI/UX%20Enthusiast&descAlignY=55&descSize=20&descColor=a8b2d8" width="100%" alt="Leul Abiti - Frontend Developer & UI/UX Enthusiast"/>
+</a>
 
 <br/>
 
@@ -13,7 +15,7 @@
 <br/>
 
 <!-- Glassmorphism-style Badges -->
-<a href="https://github.com/leul-cpu" aria-label="View Leul's GitHub followers"><img src="https://img.shields.io/github/followers/leul-cpu?style=for-the-badge&color=16213e&labelColor=1a1a2e&logo=github&label=Followers" alt="GitHub followers"/></a>
+<a href="https://github.com/leul-cpu" aria-label="View Leul's GitHub followers"><img src="https://img.shields.io/github/followers/leul-cpu?style=for-the-badge&color=e94560&labelColor=1a1a2e&logo=github&label=Followers" alt="GitHub followers"/></a>
 <a href="https://github.com/leul-cpu/leul-cpu" aria-label="View profile view statistics"><img src="https://raw.githubusercontent.com/leul-cpu/leul-cpu/output/views.svg" alt="Profile Views counter"/></a>
 
 </div>
@@ -68,12 +70,12 @@
       <!-- Column 1: Top Languages -->
       <td width="50%" align="center" valign="top">
         <h3>🎨 Top Languages</h3>
-        <a href="https://github.com/leul-cpu?tab=repositories" aria-label="View Leul's repositories and languages"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=leul-cpu&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1a2e&title_color=e94560&text_color=a8b2d8" width="100%" alt="Leul Abiti's Top Languages"/></a>
+        <a href="https://github.com/leul-cpu?tab=repositories" aria-label="View Leul's repositories and languages"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=leul-cpu&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1a2e&title_color=e94560&text_color=a8b2d8&icon_color=e94560" width="100%" alt="Leul Abiti's Top Languages"/></a>
       </td>
       <!-- Column 2: Streak -->
       <td width="50%" align="center" valign="top">
         <h3>🔥 Contribution Streak</h3>
-        <a href="https://github.com/leul-cpu" aria-label="View Leul's contribution streak on GitHub"><img src="https://streak-stats.demolab.com?user=leul-cpu&theme=tokyonight&hide_border=true&background=1a1a2e&stroke=e94560&ring=e94560&fire=e94560&currStreakNum=e94560" width="100%" alt="Leul Abiti's GitHub Contribution Streak"/></a>
+        <a href="https://github.com/leul-cpu" aria-label="View Leul's contribution streak on GitHub"><img src="https://streak-stats.demolab.com?user=leul-cpu&theme=tokyonight&hide_border=true&background=1a1a2e&stroke=e94560&ring=e94560&fire=e94560&currStreakNum=e94560&sideLabels=a8b2d8&sideNums=a8b2d8&dates=a8b2d8&currStreakLabel=a8b2d8" width="100%" alt="Leul Abiti's GitHub Contribution Streak"/></a>
       </td>
     </tr>
   </table>
@@ -110,8 +112,10 @@
 <br/>
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=120&section=footer" width="100%" alt="Footer decoration"/>
+<a href="#" aria-label="Back to top">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=120&section=footer" width="100%" alt="Footer decoration"/>
+</a>
 
-*If you like what you see, <a href="https://github.com/leul-cpu/leul-cpu" aria-label="Star this repository on GitHub">⭐ drop a star</a> — it means the world! 🙏*
+*If you like what you see, <a href="https://github.com/leul-cpu/leul-cpu" aria-label="Star this repository on GitHub">⭐ drop a star — it means the world! 🙏</a>*
 
 </div>
