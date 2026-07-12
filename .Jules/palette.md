@@ -15,3 +15,7 @@
 ## 2026-07-10 - [Maximizing Interactive Targets in CTAs]
 **Learning:** Emojis used as visual cues for links (like a star for repository starring) should be placed inside the anchor tag. This increases the clickable area and ensures the visual cue is programmatically associated with the action for both mouse and touch users.
 **Action:** When a link is preceded or followed by a related emoji, wrap both in the `<a>` tag to improve UX and accessibility.
+
+## 2026-07-12 - [Unified Dashboard Theming]
+**Learning:** In a profile README, using themed Shields.io badges (matching the site's accent and background colors) transforms a standard list of technologies into a cohesive "Project Spotlight" dashboard. Additionally, explicit `id="top"` anchors for footer links provide more reliable navigation than generic `#` links.
+**Action:** Replace plain text tech stacks with themed badges using project-specific colors, and ensure "Back to top" links point to a defined ID at the start of the document.

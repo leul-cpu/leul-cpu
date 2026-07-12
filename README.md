@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" id="top">
 
 <!-- Glassmorphism Banner -->
 <a href="https://github.com/leul-cpu" aria-label="View Leul Abiti's GitHub profile">
@@ -86,13 +86,12 @@
 ## 🚀 Projects Spotlight
 
 <div align="center">
-
 | 🏷️ Project | 💡 Description | 🛠️ Stack |
 | :--- | :--- | :--- |
-| <a href="https://github.com/leul-cpu/leulfit" aria-label="View LeulFit project on GitHub">**💪 LeulFit**</a> | Modern Fitness Hub | `HTML` `CSS` `UI/UX` |
-| <a href="https://github.com/leul-cpu/MED-CHAIN" aria-label="View MED-CHAIN project on GitHub">**🏥 MED-CHAIN**</a> | Secure Medical System | `JavaScript` `Node.js` |
-| <a href="https://github.com/leul-cpu/My-Portifolio" aria-label="View Portfolio project on GitHub">**🌐 Portfolio**</a> | Personal Showcase | `Creative Frontend` |
-| <a href="https://github.com/leul-cpu/Simple-Task-Manager" aria-label="View Task Manager project on GitHub">**📝 Task Manager**</a> | Workflow Optimizer | `JS` `Productivity` |
+| <a href="https://github.com/leul-cpu/leulfit" aria-label="View LeulFit project on GitHub">**💪 LeulFit**</a> | Modern Fitness Hub | ![HTML5](https://img.shields.io/badge/HTML5-16213e?style=flat-square&logo=html5&logoColor=e94560) ![CSS3](https://img.shields.io/badge/CSS3-16213e?style=flat-square&logo=css3&logoColor=e94560) ![UI/UX](https://img.shields.io/badge/UI/UX-16213e?style=flat-square&logo=figma&logoColor=e94560) |
+| <a href="https://github.com/leul-cpu/MED-CHAIN" aria-label="View MED-CHAIN project on GitHub">**🏥 MED-CHAIN**</a> | Secure Medical System | ![JavaScript](https://img.shields.io/badge/JavaScript-16213e?style=flat-square&logo=javascript&logoColor=e94560) ![Node.js](https://img.shields.io/badge/Node.js-16213e?style=flat-square&logo=nodedotjs&logoColor=e94560) |
+| <a href="https://github.com/leul-cpu/My-Portifolio" aria-label="View Portfolio project on GitHub">**🌐 Portfolio**</a> | Personal Showcase | ![Creative Frontend](https://img.shields.io/badge/Creative_Frontend-16213e?style=flat-square&logo=vercel&logoColor=e94560) |
+| <a href="https://github.com/leul-cpu/Simple-Task-Manager" aria-label="View Task Manager project on GitHub">**📝 Task Manager**</a> | Workflow Optimizer | ![JavaScript](https://img.shields.io/badge/JavaScript-16213e?style=flat-square&logo=javascript&logoColor=e94560) ![Productivity](https://img.shields.io/badge/Productivity-16213e?style=flat-square&logo=notion&logoColor=e94560) |
 
 </div>
 
@@ -104,7 +103,7 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leul-cpu/leul-cpu/output/github-contribution-grid-snake-dark.svg">
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/leul-cpu/leul-cpu/output/github-contribution-grid-snake.svg">
-      <img alt="Animated snake eating contribution cells, reflecting the GitHub activity of leul-cpu" src="https://raw.githubusercontent.com/leul-cpu/leul-cpu/output/github-contribution-grid-snake.svg">
+      <img alt="Animated snake eating contribution cells, reflecting the GitHub activity of leul-cpu" src="https://raw.githubusercontent.com/leul-cpu/leul-cpu/output/github-contribution-grid-snake.svg" width="100%">
     </picture>
   </a>
 </div>
@@ -112,7 +111,7 @@
 <br/>
 
 <div align="center">
-<a href="#" aria-label="Back to top">
+<a href="#top" aria-label="Back to top" title="Back to top">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=120&section=footer" width="100%" alt="Footer decoration"/>
 </a>
 
