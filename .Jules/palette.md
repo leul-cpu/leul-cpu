@@ -19,3 +19,7 @@
 ## 2026-07-12 - [Unified Dashboard Theming]
 **Learning:** In a profile README, using themed Shields.io badges (matching the site's accent and background colors) transforms a standard list of technologies into a cohesive "Project Spotlight" dashboard. Additionally, explicit `id="top"` anchors for footer links provide more reliable navigation than generic `#` links.
 **Action:** Replace plain text tech stacks with themed badges using project-specific colors, and ensure "Back to top" links point to a defined ID at the start of the document.
+
+## 2026-07-15 - [Tooltips and Touch Targets for Badge Dashboards]
+**Learning:** In an icon-heavy dashboard like a profile README, sighted mouse users benefit from `title` attributes that provide visual tooltips, clarifying the purpose of stylized badges. For touch users, small icons can be difficult to tap; wrapping them in anchor tags with non-breaking spaces (`&nbsp;`) inside the `<a>` tag effectively increases the interactive hit area without altering the visual layout.
+**Action:** Always add `title` attributes to interactive badges and use internal padding (like `&nbsp;`) within anchor tags for small social icons to improve both discoverability and mobile accessibility.
