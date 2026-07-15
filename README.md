@@ -27,7 +27,6 @@
 <div align="center">
   <!-- Stylized Cloud of Icons -->
   <p align="center">
-
       <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,nodejs,python,java,mysql,git,github,vscode,figma,canva&perline=8" width="100%" alt="Tech Stack: HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS, Node.js, Python, Java, MySQL, Git, GitHub, VS Code, Figma, Canva" />
     </a>
   </p>
@@ -42,13 +41,6 @@
       <td width="50%" align="left" valign="top">
         <h3>👤 About Me</h3>
         <p>
-
-        </p>
-        <p>I build clean, responsive interfaces that bridge the gap between complex logic and elegant design. Currently exploring the intersection of <b>Open Source</b> and <b>Creative Frontend</b>.</p>
-        <p align="center">
-          <a href="https://instagram.com/leul_my2" aria-label="Visit Leul's Instagram" title="Visit Leul's Instagram"><img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" height="25" alt="Instagram"/>&nbsp;&nbsp;</a>
-          <a href="https://linkedin.com/in/Leul-Abiti" aria-label="Visit Leul's LinkedIn" title="Visit Leul's LinkedIn"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="25" alt="LinkedIn"/>&nbsp;&nbsp;</a>
-          <a href="mailto:leulabiti97@gmail.com?subject=Hello%20from%20GitHub" aria-label="Send an email to Leul" title="Send an email to Leul"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="25" alt="Email"/></a>
         </p>
       </td>
       <!-- Column 2: Live Stats -->
@@ -68,11 +60,11 @@
       <!-- Column 1: Top Languages -->
       <td width="50%" align="center" valign="top">
         <h3>🎨 Top Languages</h3>
-
       </td>
       <!-- Column 2: Streak -->
       <td width="50%" align="center" valign="top">
         <h3>🔥 Contribution Streak</h3>
+
       </td>
     </tr>
   </table>
@@ -85,7 +77,6 @@
 <div align="center">
 | 🏷️ Project | 💡 Description | 🛠️ Stack |
 | :--- | :--- | :--- |
-
 
 </div>
 
