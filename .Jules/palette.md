@@ -19,3 +19,7 @@
 ## 2026-07-12 - [Unified Dashboard Theming]
 **Learning:** In a profile README, using themed Shields.io badges (matching the site's accent and background colors) transforms a standard list of technologies into a cohesive "Project Spotlight" dashboard. Additionally, explicit `id="top"` anchors for footer links provide more reliable navigation than generic `#` links.
 **Action:** Replace plain text tech stacks with themed badges using project-specific colors, and ensure "Back to top" links point to a defined ID at the start of the document.
+
+## 2026-07-13 - [Improving Discoverability with Tooltips]
+**Learning:** While `aria-label` is essential for screen readers, it doesn't provide visual feedback for mouse users. Adding `title` attributes to image-based links provides a native tooltip that clarifies the link's purpose on hover, improving discoverability for everyone.
+**Action:** Consistently add `title` attributes to all icon-only or image-based links to provide immediate visual context.
