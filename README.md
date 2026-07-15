@@ -39,11 +39,14 @@
       <td width="50%" align="left" valign="top">
         <h3>👤 About Me</h3>
         <p>
+          I am a <b>Biomedical Engineering Student</b> at Addis Ababa University & <b>Frontend Developer</b>.<br/><br/>
+          I build high-performance, responsive web applications with React, bridging the gap between engineering, healthcare technology, and intuitive user interface design.
         </p>
       </td>
       <!-- Column 2: Live Stats -->
       <td width="50%" align="center" valign="top">
         <h3>📊 Activity Dashboard</h3>
+        <img src="https://github-readme-stats.vercel.app/api?username=leul-cpu&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="leul-cpu's GitHub stats" />
       </td>
     </tr>
   </table>
@@ -57,10 +60,12 @@
       <!-- Column 1: Top Languages -->
       <td width="50%" align="center" valign="top">
         <h3>🎨 Top Languages</h3>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=leul-cpu&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" />
       </td>
       <!-- Column 2: Streak -->
       <td width="50%" align="center" valign="top">
         <h3>🔥 Contribution Streak</h3>
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=leul-cpu&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
       </td>
     </tr>
   </table>
@@ -74,6 +79,9 @@
 
 | 🏷️ Project | 💡 Description | 🛠️ Stack |
 | :--- | :--- | :--- |
+| **[MED-CHAIN](https://github.com/leul-cpu/MED-CHAIN)** | Medical records routing & flow simulator | `React`, `Medical Informatics` |
+| **[LeulFit](https://github.com/leul-cpu/leulfit)** | Client-side workout & health stat tracker | `JavaScript`, `React`, `CSS3` |
+| **[Client Portfolios](https://github.com/leul-cpu/Bellanawit)** | Modern showcase websites for professionals | `HTML5`, `CSS3`, `UI/UX` |
 
 </div>
 
