@@ -1,21 +1,21 @@
 <div align="center" id="top">
 
 <!-- Glassmorphism Banner -->
-<a href="https://github.com/leul-cpu" aria-label="View Leul Abiti's GitHub profile">
+<a href="https://github.com/leul-cpu" aria-label="View Leul Abiti's GitHub profile" title="View Leul Abiti's GitHub profile">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=240&section=header&text=Leul%20Abiti&fontSize=70&fontColor=e94560&animation=fadeIn&fontAlignY=35&desc=Frontend%20Developer%20%C2%B7%20UI/UX%20Enthusiast&descAlignY=55&descSize=20&descColor=a8b2d8" width="100%" alt="Leul Abiti - Frontend Developer & UI/UX Enthusiast"/>
 </a>
 
 <br/>
 
 <!-- Typing Effect Intro -->
-<a href="https://github.com/leul-cpu?tab=repositories" aria-label="Animated typing intro: Crafting beautiful web experiences, Turning ideas into clean code, Always building the future" title="View my repositories">
+
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=E94560&center=true&vCenter=true&width=500&lines=%E2%9C%A8+Crafting+beautiful+web+experiences;%F0%9F%92%BB+Turning+ideas+into+clean+code;%F0%9F%9A%80+Always+building+the+future" alt="Typing animation: Crafting beautiful web experiences, Turning ideas into clean code, Always building the future" />
 </a>
 
 <br/>
 
 <!-- Glassmorphism-style Badges -->
-<a href="https://github.com/leul-cpu" aria-label="View Leul's GitHub followers" title="View followers on GitHub"><img src="https://img.shields.io/github/followers/leul-cpu?style=for-the-badge&color=e94560&labelColor=1a1a2e&logo=github&label=Followers" alt="GitHub followers"/></a>
+
 <a href="https://github.com/leul-cpu/leul-cpu" aria-label="View profile view statistics" title="View profile view statistics"><img src="https://raw.githubusercontent.com/leul-cpu/leul-cpu/output/views.svg" alt="Profile Views counter"/></a>
 
 </div>
@@ -27,7 +27,7 @@
 <div align="center">
   <!-- Stylized Cloud of Icons -->
   <p align="center">
-    <a href="https://github.com/leul-cpu?tab=repositories" aria-label="View Leul's tech stack related repositories on GitHub" title="View repositories by tech stack">
+
       <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,nodejs,python,java,mysql,git,github,vscode,figma,canva&perline=8" width="100%" alt="Tech Stack: HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS, Node.js, Python, Java, MySQL, Git, GitHub, VS Code, Figma, Canva" />
     </a>
   </p>
@@ -42,9 +42,7 @@
       <td width="50%" align="left" valign="top">
         <h3>👤 About Me</h3>
         <p>
-          <a href="https://www.google.com/maps/place/Addis+Ababa,+Ethiopia" aria-label="View Addis Ababa, Ethiopia on Google Maps" title="View location on Google Maps"><img src="https://img.shields.io/badge/Location-Addis%20Ababa%2C%20Ethiopia-16213e?style=flat-square&logo=googlemaps&logoColor=e94560" alt="Location: Addis Ababa, Ethiopia" /></a><br/>
-          <a href="https://github.com/leul-cpu?tab=repositories&q=&type=&language=javascript" aria-label="View Leul's JavaScript projects" title="View JavaScript projects"><img src="https://img.shields.io/badge/Focus-JavaScript%20%26%20UI%2FUX-16213e?style=flat-square&logo=javascript&logoColor=e94560" alt="Focus: JavaScript & UI/UX" /></a><br/>
-          <a href="https://github.com/leul-cpu?tab=repositories" aria-label="View Leul's open source projects" title="View open source projects"><img src="https://img.shields.io/badge/Hobbies-Open%20Source%20%26%20Design-16213e?style=flat-square&logo=opensourceinitiative&logoColor=e94560" alt="Hobbies: Open Source & Design" /></a>
+
         </p>
         <p>I build clean, responsive interfaces that bridge the gap between complex logic and elegant design. Currently exploring the intersection of <b>Open Source</b> and <b>Creative Frontend</b>.</p>
         <p align="center">
@@ -56,7 +54,7 @@
       <!-- Column 2: Live Stats -->
       <td width="50%" align="center" valign="top">
         <h3>📊 Activity Dashboard</h3>
-        <a href="https://github.com/leul-cpu" aria-label="View Leul's full GitHub statistics" title="View detailed GitHub statistics"><img src="https://github-readme-stats.vercel.app/api?username=leul-cpu&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1a2e&title_color=e94560&text_color=a8b2d8&icon_color=e94560" width="100%" alt="Leul Abiti's GitHub Stats"/></a>
+
       </td>
     </tr>
   </table>
@@ -70,12 +68,11 @@
       <!-- Column 1: Top Languages -->
       <td width="50%" align="center" valign="top">
         <h3>🎨 Top Languages</h3>
-        <a href="https://github.com/leul-cpu?tab=repositories" aria-label="View Leul's repositories and languages" title="View top languages used in repositories"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=leul-cpu&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1a2e&title_color=e94560&text_color=a8b2d8&icon_color=e94560" width="100%" alt="Leul Abiti's Top Languages"/></a>
+
       </td>
       <!-- Column 2: Streak -->
       <td width="50%" align="center" valign="top">
         <h3>🔥 Contribution Streak</h3>
-        <a href="https://github.com/leul-cpu" aria-label="View Leul's contribution streak on GitHub" title="View my contribution streak"><img src="https://streak-stats.demolab.com?user=leul-cpu&theme=tokyonight&hide_border=true&background=1a1a2e&stroke=e94560&ring=e94560&fire=e94560&currStreakNum=e94560&sideLabels=a8b2d8&sideNums=a8b2d8&dates=a8b2d8&currStreakLabel=a8b2d8" width="100%" alt="Leul Abiti's GitHub Contribution Streak"/></a>
       </td>
     </tr>
   </table>
@@ -88,10 +85,7 @@
 <div align="center">
 | 🏷️ Project | 💡 Description | 🛠️ Stack |
 | :--- | :--- | :--- |
-| <a href="https://github.com/leul-cpu/leulfit" aria-label="View LeulFit project on GitHub" title="View LeulFit on GitHub">**💪 LeulFit**</a> | Modern Fitness Hub | ![HTML5](https://img.shields.io/badge/HTML5-16213e?style=flat-square&logo=html5&logoColor=e94560) ![CSS3](https://img.shields.io/badge/CSS3-16213e?style=flat-square&logo=css3&logoColor=e94560) ![UI/UX](https://img.shields.io/badge/UI/UX-16213e?style=flat-square&logo=figma&logoColor=e94560) |
-| <a href="https://github.com/leul-cpu/MED-CHAIN" aria-label="View MED-CHAIN project on GitHub" title="View MED-CHAIN on GitHub">**🏥 MED-CHAIN**</a> | Secure Medical System | ![JavaScript](https://img.shields.io/badge/JavaScript-16213e?style=flat-square&logo=javascript&logoColor=e94560) ![Node.js](https://img.shields.io/badge/Node.js-16213e?style=flat-square&logo=nodedotjs&logoColor=e94560) |
-| <a href="https://github.com/leul-cpu/My-Portifolio" aria-label="View Portfolio project on GitHub" title="View Portfolio on GitHub">**🌐 Portfolio**</a> | Personal Showcase | ![Creative Frontend](https://img.shields.io/badge/Creative_Frontend-16213e?style=flat-square&logo=vercel&logoColor=e94560) |
-| <a href="https://github.com/leul-cpu/Simple-Task-Manager" aria-label="View Task Manager project on GitHub" title="View Task Manager on GitHub">**📝 Task Manager**</a> | Workflow Optimizer | ![JavaScript](https://img.shields.io/badge/JavaScript-16213e?style=flat-square&logo=javascript&logoColor=e94560) ![Productivity](https://img.shields.io/badge/Productivity-16213e?style=flat-square&logo=notion&logoColor=e94560) |
+
 
 </div>
 
@@ -99,9 +93,6 @@
 
 <div align="center">
 
-## 🐍 Contribution Snake
-
-  <a href="https://github.com/leul-cpu" aria-label="View Leul's contribution graph on GitHub" title="View contribution graph">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leul-cpu/leul-cpu/output/github-contribution-grid-snake-dark.svg">
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/leul-cpu/leul-cpu/output/github-contribution-grid-snake.svg">

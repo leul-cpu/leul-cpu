@@ -20,10 +20,4 @@
 **Learning:** In a profile README, using themed Shields.io badges (matching the site's accent and background colors) transforms a standard list of technologies into a cohesive "Project Spotlight" dashboard. Additionally, explicit `id="top"` anchors for footer links provide more reliable navigation than generic `#` links.
 **Action:** Replace plain text tech stacks with themed badges using project-specific colors, and ensure "Back to top" links point to a defined ID at the start of the document.
 
-## 2026-07-15 - [Enhancing Interactivity with Tooltips and Hit Areas]
-**Learning:** Adding 'title' attributes to image-based links in READMEs provides immediate visual feedback via tooltips for sighted mouse users, which complements 'aria-label' for screen readers. Furthermore, moving decorative spacing like '&nbsp;' inside the anchor tags increases the interactive hit area, which is particularly beneficial for mobile and touch-screen users.
-**Action:** Always include 'title' attributes for interactive dashboard elements and ensure all visual spacing associated with a link is contained within the '<a>' tag.
 
-## 2026-07-15 - [Semantic Hierarchy for Document Outlines]
-**Learning:** Consistent heading levels (e.g., ensuring all primary sections use '##') are crucial for generating a clear and logical document outline. This significantly improves navigation for both keyboard users and screen readers who rely on heading landmarks to skip through content.
-**Action:** Audit and standardize heading levels across the README to maintain a predictable and accessible document structure.
