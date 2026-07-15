@@ -44,7 +44,6 @@
       <!-- Column 2: Live Stats -->
       <td width="50%" align="center" valign="top">
         <h3>📊 Activity Dashboard</h3>
-
       </td>
     </tr>
   </table>
@@ -62,7 +61,6 @@
       <!-- Column 2: Streak -->
       <td width="50%" align="center" valign="top">
         <h3>🔥 Contribution Streak</h3>
-
       </td>
     </tr>
   </table>
@@ -73,6 +71,7 @@
 ## 🚀 Projects Spotlight
 
 <div align="center">
+
 | 🏷️ Project | 💡 Description | 🛠️ Stack |
 | :--- | :--- | :--- |
 
@@ -82,11 +81,11 @@
 
 <div align="center">
 
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leul-cpu/leul-cpu/output/github-contribution-grid-snake-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/leul-cpu/leul-cpu/output/github-contribution-grid-snake.svg">
-      <img alt="Animated snake eating contribution cells, reflecting the GitHub activity of leul-cpu" src="https://raw.githubusercontent.com/leul-cpu/leul-cpu/output/github-contribution-grid-snake.svg" width="100%">
-    </picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leul-cpu/leul-cpu/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/leul-cpu/leul-cpu/output/github-contribution-grid-snake.svg">
+  <img alt="Animated snake eating contribution cells, reflecting the GitHub activity of leul-cpu" src="https://raw.githubusercontent.com/leul-cpu/leul-cpu/output/github-contribution-grid-snake.svg" width="100%">
+</picture>
 </div>
 
 <br/>
