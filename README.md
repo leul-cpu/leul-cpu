@@ -46,7 +46,7 @@
       <!-- Column 2: Live Stats -->
       <td width="50%" align="center" valign="top">
         <h3>📊 Activity Dashboard</h3>
-        <img src="https://github-readme-stats.vercel.app/api?username=leul-cpu&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="leul-cpu's GitHub stats" />
+        <img src="https://github-readme-stats.vercel.app/api?username=leul-cpu&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true" alt="leul-cpu's GitHub stats" />
       </td>
     </tr>
   </table>
@@ -60,7 +60,7 @@
       <!-- Column 1: Top Languages -->
       <td width="50%" align="center" valign="top">
         <h3>🎨 Top Languages</h3>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=leul-cpu&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=leul-cpu&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true" alt="Top Languages" />
       </td>
       <!-- Column 2: Streak -->
       <td width="50%" align="center" valign="top">
