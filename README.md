@@ -26,7 +26,9 @@
 <div align="center">
   <!-- Stylized Cloud of Icons -->
   <p align="center">
+    <a href="https://github.com/leul-cpu?tab=repositories" aria-label="View all my projects on GitHub" title="View all my projects on GitHub">
       <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,nodejs,python,java,mysql,git,github,vscode,figma,canva&perline=8" width="100%" alt="Tech Stack: HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS, Node.js, Python, Java, MySQL, Git, GitHub, VS Code, Figma, Canva" />
+    </a>
   </p>
 </div>
 
@@ -46,7 +48,9 @@
       <!-- Column 2: Live Stats -->
       <td width="50%" align="center" valign="top">
         <h3>📊 Activity Dashboard</h3>
-        <img src="https://github-readme-stats.vercel.app/api?username=leul-cpu&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true" alt="leul-cpu's GitHub stats" />
+        <a href="https://github.com/leul-cpu" aria-label="View my full GitHub profile" title="View my full GitHub profile">
+          <img src="https://github-readme-stats.vercel.app/api?username=leul-cpu&title_color=e94560&icon_color=e94560&text_color=a8b2d8&bg_color=16213e&hide_border=true&show_icons=true" alt="leul-cpu's GitHub stats" />
+        </a>
       </td>
     </tr>
   </table>
@@ -60,12 +64,16 @@
       <!-- Column 1: Top Languages -->
       <td width="50%" align="center" valign="top">
         <h3>🎨 Top Languages</h3>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=leul-cpu&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true" alt="Top Languages" />
+        <a href="https://github.com/leul-cpu?tab=repositories" aria-label="View repository language statistics" title="View repository language statistics">
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=leul-cpu&title_color=e94560&text_color=a8b2d8&bg_color=16213e&hide_border=true&layout=compact" alt="Top Languages" />
+        </a>
       </td>
       <!-- Column 2: Streak -->
       <td width="50%" align="center" valign="top">
         <h3>🔥 Contribution Streak</h3>
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=leul-cpu&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
+        <a href="https://github.com/leul-cpu" aria-label="View my contribution activity" title="View my contribution activity">
+          <img src="https://github-readme-streak-stats.herokuapp.com/?user=leul-cpu&stroke=e94560&ring=e94560&fire=e94560&currStreakLabel=e94560&sideLabels=a8b2d8&sideNums=a8b2d8&dates=a8b2d8&background=16213e&hide_border=true" alt="GitHub Streak" />
+        </a>
       </td>
     </tr>
   </table>
@@ -89,11 +97,13 @@
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leul-cpu/leul-cpu/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/leul-cpu/leul-cpu/output/github-contribution-grid-snake.svg">
-  <img alt="Animated snake eating contribution cells, reflecting the GitHub activity of leul-cpu" src="https://raw.githubusercontent.com/leul-cpu/leul-cpu/output/github-contribution-grid-snake.svg" width="100%">
-</picture>
+<a href="https://github.com/leul-cpu" aria-label="View my contribution graph" title="View my contribution graph">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leul-cpu/leul-cpu/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/leul-cpu/leul-cpu/output/github-contribution-grid-snake.svg">
+    <img alt="Animated snake eating contribution cells, reflecting the GitHub activity of leul-cpu" src="https://raw.githubusercontent.com/leul-cpu/leul-cpu/output/github-contribution-grid-snake.svg" width="100%">
+  </picture>
+</a>
 </div>
 
 <br/>

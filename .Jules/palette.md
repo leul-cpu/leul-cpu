@@ -20,3 +20,6 @@
 **Learning:** In a profile README, using themed Shields.io badges (matching the site's accent and background colors) transforms a standard list of technologies into a cohesive "Project Spotlight" dashboard. Additionally, explicit `id="top"` anchors for footer links provide more reliable navigation than generic `#` links.
 **Action:** Replace plain text tech stacks with themed badges using project-specific colors, and ensure "Back to top" links point to a defined ID at the start of the document.
 
+## 2026-07-16 - [Cohesive Dashboard Color Synchronization]
+**Learning:** When using multiple third-party stat cards (e.g., github-readme-stats and streak-stats), preset themes like 'tokyonight' can still result in slight color mismatches. Manually synchronizing 'title_color', 'icon_color', 'text_color', and 'bg_color' across all cards with the UI's primary design tokens (e.g., #e94560 for accents, #16213e for backgrounds) creates a much more unified "Glassmorphism" dashboard feel.
+**Action:** Use explicit hex code parameters in README stat cards to ensure perfect color synchronization with the overall profile theme.
