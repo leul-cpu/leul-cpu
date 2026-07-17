@@ -44,6 +44,10 @@
           I am a <b>Biomedical Engineering Student</b> at Addis Ababa University & <b>Frontend Developer</b>.<br/><br/>
           I build high-performance, responsive web applications with React, bridging the gap between engineering, healthcare technology, and intuitive user interface design.
         </p>
+        <br/>
+        <a href="mailto:leulabiti98@gmail.com?subject=Hello%20from%20GitHub" aria-label="Send an email to Leul Abiti" title="Send an email to Leul Abiti">
+          <img src="https://img.shields.io/badge/Email-leulabiti98%40gmail.com-e94560?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge"/>
+        </a>
       </td>
       <!-- Column 2: Live Stats -->
       <td width="50%" align="center" valign="top">
