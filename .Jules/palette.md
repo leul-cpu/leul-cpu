@@ -27,3 +27,7 @@
 ## 2026-10-24 - [Actionable Communication CTAs in Profiles]
 **Learning:** Transforming plain text contact information in a profile README into an interactive, themed badge with pre-filled fields (like `subject` on `mailto:`) increases contact engagement by reducing user friction. Wrapping the badge in accessible link wrappers with both title and aria-label attributes provides an elegant, keyboard-navigable way for visitors to connect directly from the dashboard.
 **Action:** Use Shields.io themed badges for contact links (e.g. email) with pre-filled query parameters, aligned to the profile's main accent color, and ensure high accessibility via descriptive titles and aria-labels.
+
+## 2026-10-25 - [Layout Table Screen-Reader Accessibility & Markdown Table Links]
+**Learning:** When using visual icons/emojis in section headers or tables, they can be noisy when read out loud by screen readers. Wrapping them in `<span aria-hidden="true">` silences them and improves screen reader UX. Similarly, standard Markdown links inside tables can lack context (e.g. just reading the link text without its description/purpose); converting them to HTML anchor (`<a>`) tags with descriptive `aria-label` and `title` attributes significantly improves accessibility and clarity.
+**Action:** Always wrap visual emojis in `<span aria-hidden="true">` inside markdown files, and prefer explicit HTML anchor tags with `aria-label` and `title` for links nested inside markdown tables.

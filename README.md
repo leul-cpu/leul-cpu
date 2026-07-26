@@ -21,7 +21,7 @@
 
 ---
 
-## 🛠️ Tech Stack Dashboard
+## <span aria-hidden="true">🛠️</span> Tech Stack Dashboard
 
 <div align="center">
   <!-- Stylized Cloud of Icons -->
@@ -39,7 +39,7 @@
     <tr>
       <!-- Column 1: Profile Info -->
       <td width="50%" align="left" valign="top">
-        <h3>👤 About Me</h3>
+        <h3><span aria-hidden="true">👤</span> About Me</h3>
         <p>
           I am a <b>Biomedical Engineering Student</b> at Addis Ababa University & <b>Frontend Developer</b>.<br/><br/>
           I build high-performance, responsive web applications with React, bridging the gap between engineering, healthcare technology, and intuitive user interface design.
@@ -51,7 +51,7 @@
       </td>
       <!-- Column 2: Live Stats -->
       <td width="50%" align="center" valign="top">
-        <h3>📊 Activity Dashboard</h3>
+        <h3><span aria-hidden="true">📊</span> Activity Dashboard</h3>
         <a href="https://github.com/leul-cpu" aria-label="View my full GitHub profile" title="View my full GitHub profile">
           <img src="https://github-readme-stats.vercel.app/api?username=leul-cpu&title_color=e94560&icon_color=e94560&text_color=a8b2d8&bg_color=16213e&hide_border=true&show_icons=true" alt="leul-cpu's GitHub stats" />
         </a>
@@ -67,14 +67,14 @@
     <tr>
       <!-- Column 1: Top Languages -->
       <td width="50%" align="center" valign="top">
-        <h3>🎨 Top Languages</h3>
+        <h3><span aria-hidden="true">🎨</span> Top Languages</h3>
         <a href="https://github.com/leul-cpu?tab=repositories" aria-label="View repository language statistics" title="View repository language statistics">
           <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=leul-cpu&title_color=e94560&text_color=a8b2d8&bg_color=16213e&hide_border=true&layout=compact" alt="Top Languages" />
         </a>
       </td>
       <!-- Column 2: Streak -->
       <td width="50%" align="center" valign="top">
-        <h3>🔥 Contribution Streak</h3>
+        <h3><span aria-hidden="true">🔥</span> Contribution Streak</h3>
         <a href="https://github.com/leul-cpu" aria-label="View my contribution activity" title="View my contribution activity">
           <img src="https://github-readme-streak-stats.herokuapp.com/?user=leul-cpu&stroke=e94560&ring=e94560&fire=e94560&currStreakLabel=e94560&sideLabels=a8b2d8&sideNums=a8b2d8&dates=a8b2d8&background=16213e&hide_border=true" alt="GitHub Streak" />
         </a>
@@ -85,15 +85,15 @@
 
 ---
 
-## 🚀 Projects Spotlight
+## <span aria-hidden="true">🚀</span> Projects Spotlight
 
 <div align="center">
 
-| 🏷️ Project | 💡 Description | 🛠️ Stack |
+| <span aria-hidden="true">🏷️</span> Project | <span aria-hidden="true">💡</span> Description | <span aria-hidden="true">🛠️</span> Stack |
 | :--- | :--- | :--- |
-| **[MED-CHAIN](https://github.com/leul-cpu/MED-CHAIN)** | Medical records routing & flow simulator | `React`, `Medical Informatics` |
-| **[LeulFit](https://github.com/leul-cpu/leulfit)** | Client-side workout & health stat tracker | `JavaScript`, `React`, `CSS3` |
-| **[Client Portfolios](https://github.com/leul-cpu/Bellanawit)** | Modern showcase websites for professionals | `HTML5`, `CSS3`, `UI/UX` |
+| **<a href="https://github.com/leul-cpu/MED-CHAIN" aria-label="View MED-CHAIN repository on GitHub - Medical records routing and flow simulator" title="View MED-CHAIN repository on GitHub">MED-CHAIN</a>** | Medical records routing & flow simulator | `React`, `Medical Informatics` |
+| **<a href="https://github.com/leul-cpu/leulfit" aria-label="View LeulFit repository on GitHub - Client-side workout and health stat tracker" title="View LeulFit repository on GitHub">LeulFit</a>** | Client-side workout & health stat tracker | `JavaScript`, `React`, `CSS3` |
+| **<a href="https://github.com/leul-cpu/Bellanawit" aria-label="View Client Portfolios repository on GitHub - Modern showcase websites for professionals" title="View Client Portfolios repository on GitHub">Client Portfolios</a>** | Modern showcase websites for professionals | `HTML5`, `CSS3`, `UI/UX` |
 
 </div>
 
@@ -117,6 +117,6 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=120&section=footer" width="100%" alt="Footer decoration"/>
 </a>
 
-*If you like what you see, <a href="https://github.com/leul-cpu/leul-cpu" aria-label="Star this repository on GitHub" title="Star this repository on GitHub">⭐ drop a star — it means the world! 🙏</a>*
+*If you like what you see, <a href="https://github.com/leul-cpu/leul-cpu" aria-label="Star this repository on GitHub" title="Star this repository on GitHub"><span aria-hidden="true">⭐</span> drop a star — it means the world! <span aria-hidden="true">🙏</span></a>*
 
 </div>
