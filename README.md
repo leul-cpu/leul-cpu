@@ -9,7 +9,9 @@
 
 <!-- Typing Effect Intro -->
 
+<a href="https://github.com/leul-cpu" aria-label="View Leul Abiti's GitHub profile" title="View Leul Abiti's GitHub profile">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=E94560&center=true&vCenter=true&width=500&lines=%E2%9C%A8+Crafting+beautiful+web+experiences;%F0%9F%92%BB+Turning+ideas+into+clean+code;%F0%9F%9A%80+Always+building+the+future" alt="Typing animation: Crafting beautiful web experiences, Turning ideas into clean code, Always building the future" />
+</a>
 
 <br/>
 
@@ -46,7 +48,7 @@
         </p>
         <br/>
         <a href="mailto:leulabiti98@gmail.com?subject=Hello%20from%20GitHub" aria-label="Send an email to Leul Abiti" title="Send an email to Leul Abiti">
-          <img src="https://img.shields.io/badge/Email-leulabiti98%40gmail.com-e94560?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge"/>
+          <img src="https://img.shields.io/badge/Email-leulabiti98%40gmail.com-e94560?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge"/>&nbsp;
         </a>
       </td>
       <!-- Column 2: Live Stats -->
