@@ -1,15 +1,10 @@
 <div align="center" id="top">
 
-<!-- Glassmorphism Banner -->
-<a href="https://github.com/leul-cpu" aria-label="View Leul Abiti's GitHub profile" title="View Leul Abiti's GitHub profile">
+<!-- Glassmorphism Banner & Typing Effect Intro -->
+<a href="https://github.com/leul-cpu" aria-label="View Leul Abiti's GitHub profile and active work" title="View Leul Abiti's GitHub profile and active work">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=240&section=header&text=Leul%20Abiti&fontSize=70&fontColor=e94560&animation=fadeIn&fontAlignY=35&desc=Frontend%20Developer%20%C2%B7%20UI/UX%20Enthusiast%20%C2%B7%20Email:%20leulabiti98@gmail.com&descAlignY=55&descSize=20&descColor=a8b2d8" width="100%" alt="Leul Abiti - Frontend Developer & UI/UX Enthusiast"/>
-</a>
-
-<br/>
-
-<!-- Typing Effect Intro -->
-
-<a href="https://github.com/leul-cpu" aria-label="View Leul Abiti's GitHub profile" title="View Leul Abiti's GitHub profile">
+  <br/>
+  <br/>
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=E94560&center=true&vCenter=true&width=500&lines=%E2%9C%A8+Crafting+beautiful+web+experiences;%F0%9F%92%BB+Turning+ideas+into+clean+code;%F0%9F%9A%80+Always+building+the+future" alt="Typing animation: Crafting beautiful web experiences, Turning ideas into clean code, Always building the future" />
 </a>
 
@@ -119,6 +114,6 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=120&section=footer" width="100%" alt="Footer decoration"/>
 </a>
 
-*If you like what you see, <a href="https://github.com/leul-cpu/leul-cpu" aria-label="Star this repository on GitHub" title="Star this repository on GitHub">⭐ drop a star — it means the world! 🙏</a>*
+*If you like what you see, <a href="https://github.com/leul-cpu/leul-cpu" aria-label="Star this repository on GitHub" title="Star this repository on GitHub"><span aria-hidden="true">⭐</span> drop a star — it means the world! <span aria-hidden="true">🙏</span></a>*
 
 </div>
