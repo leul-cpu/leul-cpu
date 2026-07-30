@@ -28,10 +28,6 @@
 **Learning:** Transforming plain text contact information in a profile README into an interactive, themed badge with pre-filled fields (like `subject` on `mailto:`) increases contact engagement by reducing user friction. Wrapping the badge in accessible link wrappers with both title and aria-label attributes provides an elegant, keyboard-navigable way for visitors to connect directly from the dashboard.
 **Action:** Use Shields.io themed badges for contact links (e.g. email) with pre-filled query parameters, aligned to the profile's main accent color, and ensure high accessibility via descriptive titles and aria-labels.
 
-## 2026-10-25 - [Accessibility of Icons and Interactive Elements in Markdown]
-**Learning:** In markdown-based dashboards (like profile READMEs), standard markdown links within data grids or tables lack rich accessibility metadata (like custom titles and aria-labels). Furthermore, decorative emojis in headers and list indicators are read aloud by screen readers, creating clutter in audio navigation.
-**Action:** Always convert standard Markdown table links to accessible HTML anchor tags (`<a>`) containing descriptive `aria-label` and `title` attributes. Additionally, wrap all purely decorative/status emojis in headings and table headers with `<span aria-hidden="true">` to suppress them from screen-readers.
-
-## 2026-10-26 - [Keyboard Optimization in Profile Headers]
-**Learning:** Sequential banner and typing SVGs referencing the exact same URL create duplicate screen reader notifications and repetitive keyboard tab-stops. Combining consecutive related visual cards into a single unified interactive wrapper enhances navigation flow.
-**Action:** Unify adjacent link cards referencing the same URL under a single shared link element.
+## 2026-10-25 - [Layout Table Screen-Reader Accessibility & Markdown Table Links]
+**Learning:** When using visual icons/emojis in section headers or tables, they can be noisy when read out loud by screen readers. Wrapping them in `<span aria-hidden="true">` silences them and improves screen reader UX. Similarly, standard Markdown links inside tables can lack context (e.g. just reading the link text without its description/purpose); converting them to HTML anchor (`<a>`) tags with descriptive `aria-label` and `title` attributes significantly improves accessibility and clarity.
+**Action:** Always wrap visual emojis in `<span aria-hidden="true">` inside markdown files, and prefer explicit HTML anchor tags with `aria-label` and `title` for links nested inside markdown tables.
