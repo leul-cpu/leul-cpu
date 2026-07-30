@@ -87,9 +87,9 @@
 
 | <span aria-hidden="true">🏷️</span> Project | <span aria-hidden="true">💡</span> Description | <span aria-hidden="true">🛠️</span> Stack |
 | :--- | :--- | :--- |
-| <strong><a href="https://github.com/leul-cpu/MED-CHAIN" aria-label="View MED-CHAIN project repository" title="View MED-CHAIN project repository">MED-CHAIN</a></strong> | Medical records routing & flow simulator | `React`, `Medical Informatics` |
-| <strong><a href="https://github.com/leul-cpu/leulfit" aria-label="View LeulFit project repository" title="View LeulFit project repository">LeulFit</a></strong> | Client-side workout & health stat tracker | `JavaScript`, `React`, `CSS3` |
-| <strong><a href="https://github.com/leul-cpu/Bellanawit" aria-label="View Client Portfolios project repository" title="View Client Portfolios project repository">Client Portfolios</a></strong> | Modern showcase websites for professionals | `HTML5`, `CSS3`, `UI/UX` |
+| **<a href="https://github.com/leul-cpu/MED-CHAIN" aria-label="View MED-CHAIN repository on GitHub" title="View MED-CHAIN repository on GitHub">MED-CHAIN</a>** | Medical records routing & flow simulator | `React`, `Medical Informatics` |
+| **<a href="https://github.com/leul-cpu/leulfit" aria-label="View LeulFit repository on GitHub" title="View LeulFit repository on GitHub">LeulFit</a>** | Client-side workout & health stat tracker | `JavaScript`, `React`, `CSS3` |
+| **<a href="https://github.com/leul-cpu/Bellanawit" aria-label="View Client Portfolios repository on GitHub" title="View Client Portfolios repository on GitHub">Client Portfolios</a>** | Modern showcase websites for professionals | `HTML5`, `CSS3`, `UI/UX` |
 
 </div>
 
