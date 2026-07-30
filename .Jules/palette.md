@@ -31,3 +31,7 @@
 ## 2026-10-25 - [Accessibility of Icons and Interactive Elements in Markdown]
 **Learning:** In markdown-based dashboards (like profile READMEs), standard markdown links within data grids or tables lack rich accessibility metadata (like custom titles and aria-labels). Furthermore, decorative emojis in headers and list indicators are read aloud by screen readers, creating clutter in audio navigation.
 **Action:** Always convert standard Markdown table links to accessible HTML anchor tags (`<a>`) containing descriptive `aria-label` and `title` attributes. Additionally, wrap all purely decorative/status emojis in headings and table headers with `<span aria-hidden="true">` to suppress them from screen-readers.
+
+## 2026-10-26 - [Keyboard Optimization in Profile Headers]
+**Learning:** Sequential banner and typing SVGs referencing the exact same URL create duplicate screen reader notifications and repetitive keyboard tab-stops. Combining consecutive related visual cards into a single unified interactive wrapper enhances navigation flow.
+**Action:** Unify adjacent link cards referencing the same URL under a single shared link element.
