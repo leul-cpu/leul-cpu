@@ -30,6 +30,8 @@
 
 ---
 
+## <span aria-hidden="true">📈</span> Profile Overview & Statistics
+
 <div align="center">
   <table border="0" role="presentation">
     <tr>
@@ -97,7 +99,7 @@
 
 <div align="center">
 
-<a href="https://github.com/leul-cpu" aria-label="View my contribution graph" title="View my contribution graph">
+<a href="https://github.com/leul-cpu" aria-label="View my contribution graph and GitHub activity" title="View my contribution graph and GitHub activity">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leul-cpu/leul-cpu/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/leul-cpu/leul-cpu/output/github-contribution-grid-snake.svg">
