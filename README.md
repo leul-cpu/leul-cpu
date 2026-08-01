@@ -72,7 +72,7 @@
       <td width="50%" align="center" valign="top">
         <h3><span aria-hidden="true">🔥</span> Contribution Streak</h3>
         <a href="https://github.com/leul-cpu" aria-label="View my contribution activity" title="View my contribution activity">
-          <img src="https://github-readme-streak-stats.herokuapp.com/?user=leul-cpu&stroke=e94560&ring=e94560&fire=e94560&currStreakLabel=e94560&sideLabels=a8b2d8&sideNums=a8b2d8&dates=a8b2d8&background=16213e&hide_border=true" alt="GitHub Streak" />
+          <img src="https://github-readme-streak-stats.herokuapp.com/?user=leul-cpu&stroke=e94560&ring=e94560&fire=e94560&currStreakNum=e94560&currStreakLabel=e94560&sideLabels=a8b2d8&sideNums=a8b2d8&dates=a8b2d8&background=16213e&hide_border=true" alt="GitHub Streak" />
         </a>
       </td>
     </tr>
@@ -87,9 +87,9 @@
 
 | <span aria-hidden="true">🏷️</span> Project | <span aria-hidden="true">💡</span> Description | <span aria-hidden="true">🛠️</span> Stack |
 | :--- | :--- | :--- |
-| <a href="https://github.com/leul-cpu/MED-CHAIN" aria-label="View MED-CHAIN repository on GitHub" title="View MED-CHAIN repository on GitHub"><b>MED-CHAIN</b></a> | Medical records routing & flow simulator | `React`, `Medical Informatics` |
-| <a href="https://github.com/leul-cpu/leulfit" aria-label="View LeulFit repository on GitHub" title="View LeulFit repository on GitHub"><b>LeulFit</b></a> | Client-side workout & health stat tracker | `JavaScript`, `React`, `CSS3` |
-| <a href="https://github.com/leul-cpu/Bellanawit" aria-label="View Client Portfolios repository on GitHub" title="View Client Portfolios repository on GitHub"><b>Client Portfolios</b></a> | Modern showcase websites for professionals | `HTML5`, `CSS3`, `UI/UX` |
+| <a href="https://github.com/leul-cpu/MED-CHAIN" aria-label="View MED-CHAIN repository on GitHub" title="View MED-CHAIN repository on GitHub"><b>MED-CHAIN</b></a> | Medical records routing & flow simulator | <a href="https://github.com/leul-cpu/MED-CHAIN" aria-label="MED-CHAIN uses React" title="React"><img src="https://img.shields.io/badge/React--e94560?style=flat-square&logo=react&logoColor=white&labelColor=16213e" alt="React"/></a> <a href="https://github.com/leul-cpu/MED-CHAIN" aria-label="MED-CHAIN uses Medical Informatics" title="Medical Informatics"><img src="https://img.shields.io/badge/Medical_Informatics--e94560?style=flat-square&labelColor=16213e" alt="Medical Informatics"/></a> |
+| <a href="https://github.com/leul-cpu/leulfit" aria-label="View LeulFit repository on GitHub" title="View LeulFit repository on GitHub"><b>LeulFit</b></a> | Client-side workout & health stat tracker | <a href="https://github.com/leul-cpu/leulfit" aria-label="LeulFit uses JavaScript" title="JavaScript"><img src="https://img.shields.io/badge/JavaScript--e94560?style=flat-square&logo=javascript&logoColor=white&labelColor=16213e" alt="JavaScript"/></a> <a href="https://github.com/leul-cpu/leulfit" aria-label="LeulFit uses React" title="React"><img src="https://img.shields.io/badge/React--e94560?style=flat-square&logo=react&logoColor=white&labelColor=16213e" alt="React"/></a> <a href="https://github.com/leul-cpu/leulfit" aria-label="LeulFit uses CSS3" title="CSS3"><img src="https://img.shields.io/badge/CSS3--e94560?style=flat-square&logo=css3&logoColor=white&labelColor=16213e" alt="CSS3"/></a> |
+| <a href="https://github.com/leul-cpu/Bellanawit" aria-label="View Client Portfolios repository on GitHub" title="View Client Portfolios repository on GitHub"><b>Client Portfolios</b></a> | Modern showcase websites for professionals | <a href="https://github.com/leul-cpu/Bellanawit" aria-label="Client Portfolios uses HTML5" title="HTML5"><img src="https://img.shields.io/badge/HTML5--e94560?style=flat-square&logo=html5&logoColor=white&labelColor=16213e" alt="HTML5"/></a> <a href="https://github.com/leul-cpu/Bellanawit" aria-label="Client Portfolios uses CSS3" title="CSS3"><img src="https://img.shields.io/badge/CSS3--e94560?style=flat-square&logo=css3&logoColor=white&labelColor=16213e" alt="CSS3"/></a> <a href="https://github.com/leul-cpu/Bellanawit" aria-label="Client Portfolios uses UI/UX" title="UI/UX"><img src="https://img.shields.io/badge/UI%2FUX--e94560?style=flat-square&logo=figma&logoColor=white&labelColor=16213e" alt="UI/UX"/></a> |
 
 </div>
 

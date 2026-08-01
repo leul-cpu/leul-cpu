@@ -31,3 +31,7 @@
 ## 2026-10-25 - [Accessible Headers and Markdown Tables]
 **Learning:** Screen readers read emojis literally, which can disrupt heading hierarchy flow (e.g., "rocket" for 🚀). Wrapping decorative emojis in `<span aria-hidden="true">` silences them for screen readers. Furthermore, converting simple markdown links in layout tables to custom HTML anchor tags with explicit `aria-label` attributes ensures screen readers have full, meaningful context of link targets.
 **Action:** Wrap decorative heading emojis in `<span aria-hidden="true">` and convert table markdown links to explicit HTML anchor tags with clear screen-reader labels.
+
+## 2026-10-26 - [Themed Markdown Tech Badges and Widget Color Cohesion]
+**Learning:** Replaced plain-text tech listings in project highlight tables with interactive, themed Shields.io badges. When styled with consistent colors (`labelColor=16213e` and `e94560`) and wrapped in accessible repository links with explicit `aria-label` and `title` tags, they dramatically improve both aesthetics and usability. Additionally, matching the streak stats color parameters like `currStreakNum` ensures the entire dashboard feels cohesive.
+**Action:** Always prefer themed Shields.io badges for tech stacks in markdown tables, and ensure all stats card text, label, and value colors are fully customized and visually cohesive.
