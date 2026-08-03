@@ -1,9 +1,10 @@
 <div align="center" id="top">
 
 <!-- Glassmorphism Banner & Typing Effect Intro -->
-<a href="https://github.com/leul-cpu" aria-label="View Leul Abiti's GitHub profile" title="View Leul Abiti's GitHub profile">
+<a href="https://github.com/leul-cpu" aria-label="View Leul Abiti's GitHub profile and active work" title="View Leul Abiti's GitHub profile and active work">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=240&section=header&text=Leul%20Abiti&fontSize=70&fontColor=e94560&animation=fadeIn&fontAlignY=35&desc=Frontend%20Developer%20%C2%B7%20UI/UX%20Enthusiast%20%C2%B7%20Email:%20leulabiti98@gmail.com&descAlignY=55&descSize=20&descColor=a8b2d8" width="100%" alt="Leul Abiti - Frontend Developer & UI/UX Enthusiast"/>
-  <br/><br/>
+  <br/>
+  <br/>
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=E94560&center=true&vCenter=true&width=500&lines=%E2%9C%A8+Crafting+beautiful+web+experiences;%F0%9F%92%BB+Turning+ideas+into+clean+code;%F0%9F%9A%80+Always+building+the+future" alt="Typing animation: Crafting beautiful web experiences, Turning ideas into clean code, Always building the future" />
 </a>
 
@@ -89,9 +90,9 @@
 
 | <span aria-hidden="true">🏷️</span> Project | <span aria-hidden="true">💡</span> Description | <span aria-hidden="true">🛠️</span> Stack |
 | :--- | :--- | :--- |
-| <a href="https://github.com/leul-cpu/MED-CHAIN" aria-label="View MED-CHAIN repository on GitHub" title="View MED-CHAIN repository on GitHub"><b>MED-CHAIN</b></a> | Medical records routing & flow simulator | `React`, `Medical Informatics` |
-| <a href="https://github.com/leul-cpu/leulfit" aria-label="View LeulFit repository on GitHub" title="View LeulFit repository on GitHub"><b>LeulFit</b></a> | Client-side workout & health stat tracker | `JavaScript`, `React`, `CSS3` |
-| <a href="https://github.com/leul-cpu/Bellanawit" aria-label="View Client Portfolios repository on GitHub" title="View Client Portfolios repository on GitHub"><b>Client Portfolios</b></a> | Modern showcase websites for professionals | `HTML5`, `CSS3`, `UI/UX` |
+| <a href="https://github.com/leul-cpu/MED-CHAIN" aria-label="View MED-CHAIN repository on GitHub" title="View MED-CHAIN repository on GitHub"><b>MED-CHAIN</b></a> | Medical records routing & flow simulator | <a href="https://react.dev" aria-label="Read React documentation" title="React documentation"><img src="https://img.shields.io/badge/React-e94560?style=flat-square&labelColor=16213e&logo=react" alt="React"/></a> <a href="https://en.wikipedia.org/wiki/Health_informatics" aria-label="Learn about Medical Informatics" title="Medical Informatics on Wikipedia"><img src="https://img.shields.io/badge/Medical%20Informatics-e94560?style=flat-square&labelColor=16213e" alt="Medical Informatics"/></a> |
+| <a href="https://github.com/leul-cpu/leulfit" aria-label="View LeulFit repository on GitHub" title="View LeulFit repository on GitHub"><b>LeulFit</b></a> | Client-side workout & health stat tracker | <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" aria-label="Read JavaScript documentation on MDN" title="JavaScript MDN Web Docs"><img src="https://img.shields.io/badge/JavaScript-e94560?style=flat-square&labelColor=16213e&logo=javascript" alt="JavaScript"/></a> <a href="https://react.dev" aria-label="Read React documentation" title="React documentation"><img src="https://img.shields.io/badge/React-e94560?style=flat-square&labelColor=16213e&logo=react" alt="React"/></a> <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" aria-label="Read CSS3 documentation on MDN" title="CSS3 MDN Web Docs"><img src="https://img.shields.io/badge/CSS3-e94560?style=flat-square&labelColor=16213e&logo=css3" alt="CSS3"/></a> |
+| <a href="https://github.com/leul-cpu/Bellanawit" aria-label="View Client Portfolios repository on GitHub" title="View Client Portfolios repository on GitHub"><b>Client Portfolios</b></a> | Modern showcase websites for professionals | <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" aria-label="Read HTML5 documentation on MDN" title="HTML5 MDN Web Docs"><img src="https://img.shields.io/badge/HTML5-e94560?style=flat-square&labelColor=16213e&logo=html5" alt="HTML5"/></a> <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" aria-label="Read CSS3 documentation on MDN" title="CSS3 MDN Web Docs"><img src="https://img.shields.io/badge/CSS3-e94560?style=flat-square&labelColor=16213e&logo=css3" alt="CSS3"/></a> <a href="https://www.nngroup.com/articles/definition-user-experience/" aria-label="Read NN/g's definition of User Experience (UX)" title="What is UI/UX?"><img src="https://img.shields.io/badge/UI/UX-e94560?style=flat-square&labelColor=16213e" alt="UI/UX"/></a> |
 
 </div>
 
