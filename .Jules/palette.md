@@ -31,3 +31,7 @@
 ## 2026-10-25 - [Accessible Headers and Markdown Tables]
 **Learning:** Screen readers read emojis literally, which can disrupt heading hierarchy flow (e.g., "rocket" for 🚀). Wrapping decorative emojis in `<span aria-hidden="true">` silences them for screen readers. Furthermore, converting simple markdown links in layout tables to custom HTML anchor tags with explicit `aria-label` attributes ensures screen readers have full, meaningful context of link targets.
 **Action:** Wrap decorative heading emojis in `<span aria-hidden="true">` and convert table markdown links to explicit HTML anchor tags with clear screen-reader labels.
+
+## 2026-10-26 - [Consolidated Interactive Link Wrappers for Badges]
+**Learning:** While rendering a list of technology badges as individual links provides visual delight, having consecutive separate links pointing to the exact same URL causes severe keyboard tab-stop fatigue and screen-reader link repetition. Grouping adjacent badges under a single, unified link wrapper per item (e.g., one link for a project's entire tech stack) with a collective `aria-label` and `title` maintains visual polish while optimizing the dashboard's accessibility and navigation flow.
+**Action:** Group adjacent decorative or tech stack badges pointing to the same destination under a single, descriptive HTML anchor tag instead of multiple individual links.
