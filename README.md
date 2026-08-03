@@ -1,9 +1,10 @@
 <div align="center" id="top">
 
 <!-- Glassmorphism Banner & Typing Effect Intro -->
-<a href="https://github.com/leul-cpu" aria-label="View Leul Abiti's GitHub profile" title="View Leul Abiti's GitHub profile">
+<a href="https://github.com/leul-cpu" aria-label="View Leul Abiti's GitHub profile and active work" title="View Leul Abiti's GitHub profile and active work">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=240&section=header&text=Leul%20Abiti&fontSize=70&fontColor=e94560&animation=fadeIn&fontAlignY=35&desc=Frontend%20Developer%20%C2%B7%20UI/UX%20Enthusiast%20%C2%B7%20Email:%20leulabiti98@gmail.com&descAlignY=55&descSize=20&descColor=a8b2d8" width="100%" alt="Leul Abiti - Frontend Developer & UI/UX Enthusiast"/>
-  <br/><br/>
+  <br/>
+  <br/>
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=E94560&center=true&vCenter=true&width=500&lines=%E2%9C%A8+Crafting+beautiful+web+experiences;%F0%9F%92%BB+Turning+ideas+into+clean+code;%F0%9F%9A%80+Always+building+the+future" alt="Typing animation: Crafting beautiful web experiences, Turning ideas into clean code, Always building the future" />
 </a>
 
